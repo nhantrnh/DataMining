@@ -40,9 +40,21 @@ experiments/
   baseline_simulation.py   [mở rộng] hai baseline pdglasso trên dữ liệu mô phỏng
   stability.py             [mở rộng] đánh giá độ ổn định bằng bootstrap
 
-data/simulated-data/     tám tệp .RData dữ liệu mô phỏng của nhóm tác giả
-notebooks/               mười một notebook Kaggle đã chạy, kèm log
+simulation/simulated-data/            tám tệp .RData dữ liệu mô phỏng
+applications/
+  airquality/airdata/                   residual AR(1) 373x12 của dữ liệu
+                                        chất lượng không khí
+  fMRIdata/output-fMRI/36variables/     hai mô hình đã chọn sẵn của
+                                        Subject 14 và Subject 15
+notebooks/                            mười một notebook Kaggle đã chạy, kèm log
 ```
+
+Toàn bộ dữ liệu cần thiết đều nằm sẵn trong kho, không phải tải thêm. Cần nói rõ
+đây là những gì nhóm tác giả công bố, chứ **không phải dữ liệu thô**: với dữ liệu
+chất lượng không khí, kho chỉ có residual sau khi đã khớp mô hình AR(1) chứ không
+có chuỗi đo gốc; với fMRI, kho chỉ có hai mô hình đã được chọn sẵn chứ không có
+chuỗi thời gian của 36 vùng não. Đó là lý do hai ứng dụng này chỉ tái lập được
+một phần, như trình bày ở Chương 4 của báo cáo.
 
 Kho không chứa sẵn kết quả thực nghiệm: mọi con số trong báo cáo đều sinh lại
 được bằng đúng các lệnh ở mục [Chạy thực nghiệm](#chạy-thực-nghiệm) bên dưới,
@@ -224,9 +236,7 @@ python experiments/air_quality.py --output results/air-quality.json
 python experiments/fmri.py --output results/fmri.json
 ```
 
-Hai lệnh này cần các tệp `.RData` trong kho mã nguồn của nhóm tác giả (thư mục
-`applications/`). Nhóm không có dữ liệu thô của hai ứng dụng nên chỉ tái dựng
-được một phần; giới hạn cụ thể trình bày ở Chương 4 của báo cáo.
+Dữ liệu cho hai lệnh này đã có sẵn trong kho, không cần tải thêm.
 
 ### III. Baseline pdglasso trên dữ liệu mô phỏng (mở rộng)
 

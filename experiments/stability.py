@@ -80,7 +80,7 @@ SEARCHES = {"tau": backward_cgm_pd, "submodel": backward_submodel}
 def saved_data_path(scenario: str, p: str) -> Path:
     return (
         REPO_ROOT
-        / "data"
+        / "simulation"
         / "simulated-data"
         / f"simdf_{SCENARIO_CODE[scenario]}_{p}.RData"
     )

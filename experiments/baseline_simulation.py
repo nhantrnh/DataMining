@@ -49,7 +49,7 @@ SCENARIO_CODE = {"A": "11", "B": "22"}
 def saved_data_path(scenario: str, p: str) -> Path:
     return (
         REPO_ROOT
-        / "data"
+        / "simulation"
         / "simulated-data"
         / f"simdf_{SCENARIO_CODE[scenario]}_{p}.RData"
     )

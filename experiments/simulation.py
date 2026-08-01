@@ -25,7 +25,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 PORT_ROOT = Path(__file__).resolve().parents[1]
-REPO_ROOT = PORT_ROOT.parent
+# Trong kho mã nguồn gốc, mã Python nằm trong python-port/ nên dữ liệu ở thư mục
+# cha; ở kho này mã nằm ngay gốc kho, nên hai đường dẫn trùng nhau.
+REPO_ROOT = PORT_ROOT.parent if (PORT_ROOT.parent / "applications").is_dir() else PORT_ROOT
 sys.path.insert(0, str(PORT_ROOT / "src"))
 
 from backward_cgm_pd.article_graphs import article_scenario_graph
