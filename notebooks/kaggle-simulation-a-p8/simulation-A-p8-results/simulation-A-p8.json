@@ -1,0 +1,2258 @@
+{
+  "checkpoint_version": 3,
+  "settings": {
+    "scenarios": [
+      "A"
+    ],
+    "dimensions": [
+      8
+    ],
+    "replicates": 20,
+    "method": "both",
+    "source": "saved",
+    "alpha": 0.05,
+    "itmax": 500,
+    "parallel": 3,
+    "rcon_backend": "grc_ipms"
+  },
+  "complete": true,
+  "configurations": [
+    {
+      "scenario": "A",
+      "p": 8,
+      "source": "saved",
+      "replicates": 20,
+      "note": "Saved article datasets with the true graph reconstructed from simulation.R (interpreting its FI typo as fullEdges()$FT).",
+      "methods": {
+        "tau": {
+          "runs": [
+            {
+              "replicate": 1,
+              "runtime_seconds": 13.448333375999994,
+              "iterations": 27,
+              "number_models": 336,
+              "pvalue": 0.9641635329495936,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 2,
+              "runtime_seconds": 11.370807821000028,
+              "iterations": 27,
+              "number_models": 308,
+              "pvalue": 0.09222608782422875,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    6
+                  ]
+                ]
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 3,
+              "runtime_seconds": 11.138491773999988,
+              "iterations": 27,
+              "number_models": 335,
+              "pvalue": 0.7661427540446331,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 4,
+              "runtime_seconds": 11.162505140999997,
+              "iterations": 22,
+              "number_models": 224,
+              "pvalue": 0.345803520197977,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  3
+                ],
+                "E": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    4,
+                    5
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    5,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    3,
+                    4
+                  ]
+                ]
+              },
+              "number_edges": 11,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.45454545454545453,
+                "eTPR": 1.0,
+                "eTNR": 0.7391304347826086,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.7777777777777778
+              }
+            },
+            {
+              "replicate": 5,
+              "runtime_seconds": 8.318325454999979,
+              "iterations": 26,
+              "number_models": 277,
+              "pvalue": 0.7822833618312819,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 6,
+              "runtime_seconds": 10.349375654000028,
+              "iterations": 24,
+              "number_models": 277,
+              "pvalue": 0.13078942872592947,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    7
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    8
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 13,
+              "number_symmetries": 6,
+              "metrics": {
+                "ePPV": 0.38461538461538464,
+                "eTPR": 1.0,
+                "eTNR": 0.6521739130434783,
+                "sPPV": 0.16666666666666666,
+                "sTPR": 1.0,
+                "sTNR": 0.5555555555555556
+              }
+            },
+            {
+              "replicate": 7,
+              "runtime_seconds": 12.809696411000004,
+              "iterations": 24,
+              "number_models": 299,
+              "pvalue": 0.21821474635683424,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  3,
+                  4
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    6,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    6
+                  ]
+                ]
+              },
+              "number_edges": 9,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.5555555555555556,
+                "eTPR": 1.0,
+                "eTNR": 0.8260869565217391,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.7777777777777778
+              }
+            },
+            {
+              "replicate": 8,
+              "runtime_seconds": 10.714340183000047,
+              "iterations": 28,
+              "number_models": 354,
+              "pvalue": 0.835856340165552,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 9,
+              "runtime_seconds": 12.267303529000003,
+              "iterations": 27,
+              "number_models": 319,
+              "pvalue": 0.43625696777796624,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 10,
+              "runtime_seconds": 9.881513447999964,
+              "iterations": 28,
+              "number_models": 341,
+              "pvalue": 0.522778996281736,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 11,
+              "runtime_seconds": 9.058312876000002,
+              "iterations": 28,
+              "number_models": 297,
+              "pvalue": 0.9658878723054356,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 12,
+              "runtime_seconds": 13.528721024999982,
+              "iterations": 27,
+              "number_models": 337,
+              "pvalue": 0.9894640826632591,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 13,
+              "runtime_seconds": 10.590507589000026,
+              "iterations": 26,
+              "number_models": 314,
+              "pvalue": 0.7721529712494535,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 8,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.625,
+                "eTPR": 1.0,
+                "eTNR": 0.8695652173913043,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 14,
+              "runtime_seconds": 9.934013407999998,
+              "iterations": 27,
+              "number_models": 319,
+              "pvalue": 0.5083720204972679,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 15,
+              "runtime_seconds": 8.91764480400002,
+              "iterations": 23,
+              "number_models": 229,
+              "pvalue": 0.3067894127108984,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    6
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    7
+                  ]
+                ]
+              },
+              "number_edges": 8,
+              "number_symmetries": 1,
+              "metrics": {
+                "ePPV": 0.625,
+                "eTPR": 1.0,
+                "eTNR": 0.8695652173913043,
+                "sPPV": 0.0,
+                "sTPR": 0.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 16,
+              "runtime_seconds": 10.467860010000038,
+              "iterations": 27,
+              "number_models": 301,
+              "pvalue": 0.8319974296902723,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 17,
+              "runtime_seconds": 8.190642299000046,
+              "iterations": 26,
+              "number_models": 288,
+              "pvalue": 0.110902411124864,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    2,
+                    6
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 18,
+              "runtime_seconds": 9.054536052999993,
+              "iterations": 26,
+              "number_models": 304,
+              "pvalue": 0.9909061669597328,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    6
+                  ]
+                ]
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 19,
+              "runtime_seconds": 10.65739158100007,
+              "iterations": 28,
+              "number_models": 329,
+              "pvalue": 0.25008088942943674,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 20,
+              "runtime_seconds": 15.249504391999949,
+              "iterations": 27,
+              "number_models": 315,
+              "pvalue": 0.3936297916457569,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            }
+          ],
+          "mean_runtime_seconds": 10.855491341450008,
+          "mean_iterations": 26.25,
+          "mean_number_models": 305.15,
+          "mean_number_edges": 6.95,
+          "sd_number_edges": 2.0641042405337657,
+          "mean_number_symmetries": 2.4,
+          "sd_number_symmetries": 0.9947229183096801,
+          "mean_metrics": {
+            "ePPV": 0.7667596292596293,
+            "eTPR": 1.0,
+            "eTNR": 0.9152173913043479,
+            "sPPV": 0.41666666666666663,
+            "sTPR": 0.95,
+            "sTNR": 0.8944444444444445
+          },
+          "mean_metrics_percent": {
+            "ePPV": 76.67596292596292,
+            "eTPR": 100.0,
+            "eTNR": 91.52173913043478,
+            "sPPV": 41.666666666666664,
+            "sTPR": 95.0,
+            "sTNR": 89.44444444444444
+          }
+        },
+        "submodel": {
+          "runs": [
+            {
+              "replicate": 1,
+              "runtime_seconds": 18.992068657000004,
+              "iterations": 43,
+              "number_models": 625,
+              "pvalue": 0.9641635329495936,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 2,
+              "runtime_seconds": 17.85849163399996,
+              "iterations": 40,
+              "number_models": 531,
+              "pvalue": 0.3086678914282799,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    7
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.7777777777777778
+              }
+            },
+            {
+              "replicate": 3,
+              "runtime_seconds": 17.825772572000005,
+              "iterations": 43,
+              "number_models": 652,
+              "pvalue": 0.7661427540446331,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 4,
+              "runtime_seconds": 17.69734505300005,
+              "iterations": 36,
+              "number_models": 475,
+              "pvalue": 0.6335539666511643,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  3
+                ],
+                "E": [
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    5,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    3,
+                    4
+                  ]
+                ]
+              },
+              "number_edges": 9,
+              "number_symmetries": 1,
+              "metrics": {
+                "ePPV": 0.5555555555555556,
+                "eTPR": 1.0,
+                "eTNR": 0.8260869565217391,
+                "sPPV": 1.0,
+                "sTPR": 1.0,
+                "sTNR": 0.7777777777777778
+              }
+            },
+            {
+              "replicate": 5,
+              "runtime_seconds": 14.544964319000087,
+              "iterations": 42,
+              "number_models": 549,
+              "pvalue": 0.7822833618312819,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 6,
+              "runtime_seconds": 16.38341523600002,
+              "iterations": 34,
+              "number_models": 453,
+              "pvalue": 0.13078942872592947,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    7
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    8
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 13,
+              "number_symmetries": 6,
+              "metrics": {
+                "ePPV": 0.38461538461538464,
+                "eTPR": 1.0,
+                "eTNR": 0.6521739130434783,
+                "sPPV": 0.16666666666666666,
+                "sTPR": 1.0,
+                "sTNR": 0.5555555555555556
+              }
+            },
+            {
+              "replicate": 7,
+              "runtime_seconds": 18.140941368000085,
+              "iterations": 36,
+              "number_models": 452,
+              "pvalue": 0.2504370372992639,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  3,
+                  4
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    6,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 9,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.5555555555555556,
+                "eTPR": 1.0,
+                "eTNR": 0.8260869565217391,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.6666666666666666
+              }
+            },
+            {
+              "replicate": 8,
+              "runtime_seconds": 17.507182680000028,
+              "iterations": 46,
+              "number_models": 706,
+              "pvalue": 0.835856340165552,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 9,
+              "runtime_seconds": 19.775442653000027,
+              "iterations": 43,
+              "number_models": 586,
+              "pvalue": 0.43625696777796624,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 10,
+              "runtime_seconds": 17.306493915000033,
+              "iterations": 46,
+              "number_models": 692,
+              "pvalue": 0.522778996281736,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 11,
+              "runtime_seconds": 18.64534886699994,
+              "iterations": 46,
+              "number_models": 649,
+              "pvalue": 0.9658878723054356,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 5,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 1.0,
+                "eTPR": 1.0,
+                "eTNR": 1.0,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 12,
+              "runtime_seconds": 20.517387000999975,
+              "iterations": 43,
+              "number_models": 642,
+              "pvalue": 0.9894640826632591,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 13,
+              "runtime_seconds": 15.705227839000031,
+              "iterations": 42,
+              "number_models": 565,
+              "pvalue": 0.8403465102600501,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 14,
+              "runtime_seconds": 14.157222868999952,
+              "iterations": 37,
+              "number_models": 469,
+              "pvalue": 0.565276662934024,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    7
+                  ],
+                  [
+                    5,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 8,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.625,
+                "eTPR": 1.0,
+                "eTNR": 0.8695652173913043,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.6666666666666666
+              }
+            },
+            {
+              "replicate": 15,
+              "runtime_seconds": 15.257820630000083,
+              "iterations": 36,
+              "number_models": 499,
+              "pvalue": 0.7119267625606895,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    6
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    7
+                  ]
+                ]
+              },
+              "number_edges": 9,
+              "number_symmetries": 1,
+              "metrics": {
+                "ePPV": 0.5555555555555556,
+                "eTPR": 1.0,
+                "eTNR": 0.8260869565217391,
+                "sPPV": 0.0,
+                "sTPR": 0.0,
+                "sTNR": 0.7777777777777778
+              }
+            },
+            {
+              "replicate": 16,
+              "runtime_seconds": 18.636189698000067,
+              "iterations": 43,
+              "number_models": 622,
+              "pvalue": 0.8319974296902723,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 3,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.3333333333333333,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 17,
+              "runtime_seconds": 15.801162062000003,
+              "iterations": 44,
+              "number_models": 642,
+              "pvalue": 0.5815226106238662,
+              "model": {
+                "p": 8,
+                "L.as": [
+                  1
+                ],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    6
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 1.0
+              }
+            },
+            {
+              "replicate": 18,
+              "runtime_seconds": 14.317988996000054,
+              "iterations": 42,
+              "number_models": 606,
+              "pvalue": 0.9909061669597328,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": [
+                  [
+                    1,
+                    6
+                  ]
+                ]
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 19,
+              "runtime_seconds": 17.101370997999993,
+              "iterations": 43,
+              "number_models": 606,
+              "pvalue": 0.6357050340080694,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    6,
+                    8
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 6,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.8333333333333334,
+                "eTPR": 1.0,
+                "eTNR": 0.9565217391304348,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            },
+            {
+              "replicate": 20,
+              "runtime_seconds": 22.481943503000025,
+              "iterations": 42,
+              "number_models": 591,
+              "pvalue": 0.6704056602278037,
+              "model": {
+                "p": 8,
+                "L.as": [],
+                "E": [
+                  [
+                    1,
+                    3
+                  ],
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    7,
+                    8
+                  ]
+                ],
+                "E.as": []
+              },
+              "number_edges": 7,
+              "number_symmetries": 2,
+              "metrics": {
+                "ePPV": 0.7142857142857143,
+                "eTPR": 1.0,
+                "eTNR": 0.9130434782608695,
+                "sPPV": 0.5,
+                "sTPR": 1.0,
+                "sTNR": 0.8888888888888888
+              }
+            }
+          ],
+          "mean_runtime_seconds": 17.43268902750002,
+          "mean_iterations": 41.35,
+          "mean_number_models": 580.6,
+          "mean_number_edges": 7.0,
+          "sd_number_edges": 1.8918106058538346,
+          "mean_number_symmetries": 2.2,
+          "sd_number_symmetries": 1.0052493799000692,
+          "mean_metrics": {
+            "ePPV": 0.7540521978021978,
+            "eTPR": 1.0,
+            "eTNR": 0.9130434782608695,
+            "sPPV": 0.4666666666666666,
+            "sTPR": 0.95,
+            "sTNR": 0.8555555555555555
+          },
+          "mean_metrics_percent": {
+            "ePPV": 75.40521978021978,
+            "eTPR": 100.0,
+            "eTNR": 91.30434782608695,
+            "sPPV": 46.666666666666664,
+            "sTPR": 95.0,
+            "sTNR": 85.55555555555556
+          }
+        }
+      },
+      "true_model": {
+        "p": 8,
+        "L.as": [
+          1,
+          3,
+          4
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    }
+  ]
+}

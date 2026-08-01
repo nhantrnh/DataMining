@@ -1,0 +1,277 @@
+[{"stream_name":"stderr","time":8.959805686,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.959897203,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.959905469,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.959909948,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.79035513,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.790424155,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.790431597,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.790436494,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.014988219,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 8.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.218691847,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 8.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.700162505,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":18.66185752,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":18.661910164,"data":"Output: /kaggle/working/simulation-B-p8-results\n"}
+,{"stream_name":"stdout","time":18.68011562,"data":"{'scenario': 'B', 'p': '8', 'replicates': 20, 'method': 'both'}\n"}
+,{"stream_name":"stdout","time":18.867120048,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/simulation.py --scenario B --p 8 --replicates 20 --method both --source saved --alpha 0.05 --itmax 500 --rcon-backend grc_ipms --parallel 3 --output /kaggle/working/simulation-B-p8-results/simulation-B-p8.json --resume\n"}
+,{"stream_name":"stdout","time":22.465465964,"data":"[10:27:10] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":22.477707529,"data":"[10:27:10] [Simulation] configuration scenario=B p=8 | methods=tau,submodel | replicates=20 | completed=0/40\n"}
+,{"stream_name":"stdout","time":22.4777868,"data":"[10:27:10] [Simulation] START method=tau (1/2) replicate=1/20 | overall=0/40 (0.0%)\n"}
+,{"stream_name":"stdout","time":22.668769763,"data":"[10:27:10] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":22.668813486,"data":"[10:27:10] [Simulation] configuration scenario=B p=8 | methods=tau,submodel | replicates=20 | completed=0/40\n"}
+,{"stream_name":"stdout","time":22.668821371,"data":"[10:27:10] [Simulation] START method=tau (1/2) replicate=1/20 | overall=0/40 (0.0%)\n"}
+,{"stream_name":"stdout","time":36.243217698,"data":"[10:27:24] [Simulation] DONE  method=tau replicate=1/20 | elapsed=14s | overall=1/40 (2.5%) | ETA~8m 57s\n"}
+,{"stream_name":"stdout","time":36.24418072,"data":"[10:27:24] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":36.244229057,"data":"[10:27:24] [Simulation] START method=tau (1/2) replicate=2/20 | overall=1/40 (2.5%)\n"}
+,{"stream_name":"stdout","time":36.446187443,"data":"[10:27:24] [Simulation] DONE  method=tau replicate=1/20 | elapsed=14s | overall=1/40 (2.5%) | ETA~8m 57s\n"}
+,{"stream_name":"stdout","time":36.446234869,"data":"[10:27:24] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":36.446275531,"data":"[10:27:24] [Simulation] START method=tau (1/2) replicate=2/20 | overall=1/40 (2.5%)\n"}
+,{"stream_name":"stdout","time":50.264340312,"data":"[10:27:38] [Simulation] DONE  method=tau replicate=2/20 | elapsed=14s | overall=2/40 (5.0%) | ETA~8m 48s\n"}
+,{"stream_name":"stdout","time":50.265516584,"data":"[10:27:38] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":50.26555463,"data":"[10:27:38] [Simulation] START method=tau (1/2) replicate=3/20 | overall=2/40 (5.0%)\n"}
+,{"stream_name":"stdout","time":50.472544766,"data":"[10:27:38] [Simulation] DONE  method=tau replicate=2/20 | elapsed=14s | overall=2/40 (5.0%) | ETA~8m 48s\n"}
+,{"stream_name":"stdout","time":50.472579856,"data":"[10:27:38] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":50.47258739,"data":"[10:27:38] [Simulation] START method=tau (1/2) replicate=3/20 | overall=2/40 (5.0%)\n"}
+,{"stream_name":"stdout","time":64.442412304,"data":"[10:27:52] [Simulation] DONE  method=tau replicate=3/20 | elapsed=14s | overall=3/40 (7.5%) | ETA~8m 38s\n"}
+,{"stream_name":"stdout","time":64.443971148,"data":"[10:27:52] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":64.444035421,"data":"[10:27:52] [Simulation] START method=tau (1/2) replicate=4/20 | overall=3/40 (7.5%)\n"}
+,{"stream_name":"stdout","time":64.646478817,"data":"[10:27:52] [Simulation] DONE  method=tau replicate=3/20 | elapsed=14s | overall=3/40 (7.5%) | ETA~8m 38s\n"}
+,{"stream_name":"stdout","time":64.646560484,"data":"[10:27:52] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":64.646570947,"data":"[10:27:52] [Simulation] START method=tau (1/2) replicate=4/20 | overall=3/40 (7.5%)\n"}
+,{"stream_name":"stdout","time":84.450347863,"data":"[10:28:12] [Simulation] DONE  method=tau replicate=4/20 | elapsed=20s | overall=4/40 (10.0%) | ETA~9m 18s\n"}
+,{"stream_name":"stdout","time":84.451839137,"data":"[10:28:12] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":84.451881903,"data":"[10:28:12] [Simulation] START method=tau (1/2) replicate=5/20 | overall=4/40 (10.0%)\n"}
+,{"stream_name":"stdout","time":84.657979998,"data":"[10:28:12] [Simulation] DONE  method=tau replicate=4/20 | elapsed=20s | overall=4/40 (10.0%) | ETA~9m 18s\n"}
+,{"stream_name":"stdout","time":84.658016792,"data":"[10:28:12] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":84.658900153,"data":"[10:28:12] [Simulation] START method=tau (1/2) replicate=5/20 | overall=4/40 (10.0%)\n"}
+,{"stream_name":"stdout","time":98.144660362,"data":"[10:28:26] [Simulation] DONE  method=tau replicate=5/20 | elapsed=14s | overall=5/40 (12.5%) | ETA~8m 50s\n"}
+,{"stream_name":"stdout","time":98.14621329,"data":"[10:28:26] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":98.146253581,"data":"[10:28:26] [Simulation] START method=tau (1/2) replicate=6/20 | overall=5/40 (12.5%)\n"}
+,{"stream_name":"stdout","time":98.348866086,"data":"[10:28:26] [Simulation] DONE  method=tau replicate=5/20 | elapsed=14s | overall=5/40 (12.5%) | ETA~8m 50s\n"}
+,{"stream_name":"stdout","time":98.348914099,"data":"[10:28:26] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":98.348945366,"data":"[10:28:26] [Simulation] START method=tau (1/2) replicate=6/20 | overall=5/40 (12.5%)\n"}
+,{"stream_name":"stdout","time":114.941288802,"data":"[10:28:43] [Simulation] DONE  method=tau replicate=6/20 | elapsed=17s | overall=6/40 (15.0%) | ETA~8m 44s\n"}
+,{"stream_name":"stdout","time":114.942573066,"data":"[10:28:43] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":114.942602227,"data":"[10:28:43] [Simulation] START method=tau (1/2) replicate=7/20 | overall=6/40 (15.0%)\n"}
+,{"stream_name":"stdout","time":115.150174915,"data":"[10:28:43] [Simulation] DONE  method=tau replicate=6/20 | elapsed=17s | overall=6/40 (15.0%) | ETA~8m 44s\n"}
+,{"stream_name":"stdout","time":115.150239212,"data":"[10:28:43] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":115.150248276,"data":"[10:28:43] [Simulation] START method=tau (1/2) replicate=7/20 | overall=6/40 (15.0%)\n"}
+,{"stream_name":"stdout","time":125.024761378,"data":"[10:28:53] [Simulation] DONE  method=tau replicate=7/20 | elapsed=10s | overall=7/40 (17.5%) | ETA~8m 03s\n"}
+,{"stream_name":"stdout","time":125.026423042,"data":"[10:28:53] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":125.026462397,"data":"[10:28:53] [Simulation] START method=tau (1/2) replicate=8/20 | overall=7/40 (17.5%)\n"}
+,{"stream_name":"stdout","time":125.230289785,"data":"[10:28:53] [Simulation] DONE  method=tau replicate=7/20 | elapsed=10s | overall=7/40 (17.5%) | ETA~8m 03s\n"}
+,{"stream_name":"stdout","time":125.230333766,"data":"[10:28:53] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":125.23034221,"data":"[10:28:53] [Simulation] START method=tau (1/2) replicate=8/20 | overall=7/40 (17.5%)\n"}
+,{"stream_name":"stdout","time":138.645729287,"data":"[10:29:06] [Simulation] DONE  method=tau replicate=8/20 | elapsed=14s | overall=8/40 (20.0%) | ETA~7m 45s\n"}
+,{"stream_name":"stdout","time":138.64761919,"data":"[10:29:06] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":138.647661245,"data":"[10:29:06] [Simulation] START method=tau (1/2) replicate=9/20 | overall=8/40 (20.0%)\n"}
+,{"stream_name":"stdout","time":138.849255582,"data":"[10:29:06] [Simulation] DONE  method=tau replicate=8/20 | elapsed=14s | overall=8/40 (20.0%) | ETA~7m 45s\n"}
+,{"stream_name":"stdout","time":138.849315342,"data":"[10:29:06] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":138.849325717,"data":"[10:29:06] [Simulation] START method=tau (1/2) replicate=9/20 | overall=8/40 (20.0%)\n"}
+,{"stream_name":"stdout","time":160.736605382,"data":"[10:29:28] [Simulation] DONE  method=tau replicate=9/20 | elapsed=22s | overall=9/40 (22.5%) | ETA~7m 56s\n"}
+,{"stream_name":"stdout","time":160.738620607,"data":"[10:29:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":160.738667732,"data":"[10:29:28] [Simulation] START method=tau (1/2) replicate=10/20 | overall=9/40 (22.5%)\n"}
+,{"stream_name":"stdout","time":160.951328262,"data":"[10:29:28] [Simulation] DONE  method=tau replicate=9/20 | elapsed=22s | overall=9/40 (22.5%) | ETA~7m 56s\n"}
+,{"stream_name":"stdout","time":160.951395107,"data":"[10:29:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":160.951404931,"data":"[10:29:28] [Simulation] START method=tau (1/2) replicate=10/20 | overall=9/40 (22.5%)\n"}
+,{"stream_name":"stdout","time":179.549141728,"data":"[10:29:47] [Simulation] DONE  method=tau replicate=10/20 | elapsed=19s | overall=10/40 (25.0%) | ETA~7m 51s\n"}
+,{"stream_name":"stdout","time":179.550908816,"data":"[10:29:47] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":179.550950674,"data":"[10:29:47] [Simulation] START method=tau (1/2) replicate=11/20 | overall=10/40 (25.0%)\n"}
+,{"stream_name":"stdout","time":179.752999747,"data":"[10:29:47] [Simulation] DONE  method=tau replicate=10/20 | elapsed=19s | overall=10/40 (25.0%) | ETA~7m 51s\n"}
+,{"stream_name":"stdout","time":179.753117957,"data":"[10:29:47] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":179.753131541,"data":"[10:29:47] [Simulation] START method=tau (1/2) replicate=11/20 | overall=10/40 (25.0%)\n"}
+,{"stream_name":"stdout","time":195.65380284,"data":"[10:30:03] [Simulation] DONE  method=tau replicate=11/20 | elapsed=16s | overall=11/40 (27.5%) | ETA~7m 36s\n"}
+,{"stream_name":"stdout","time":195.655913531,"data":"[10:30:03] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":195.655954025,"data":"[10:30:03] [Simulation] START method=tau (1/2) replicate=12/20 | overall=11/40 (27.5%)\n"}
+,{"stream_name":"stdout","time":195.861838576,"data":"[10:30:03] [Simulation] DONE  method=tau replicate=11/20 | elapsed=16s | overall=11/40 (27.5%) | ETA~7m 36s\n"}
+,{"stream_name":"stdout","time":195.861870234,"data":"[10:30:03] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":195.861877874,"data":"[10:30:03] [Simulation] START method=tau (1/2) replicate=12/20 | overall=11/40 (27.5%)\n"}
+,{"stream_name":"stdout","time":210.560114417,"data":"[10:30:18] [Simulation] DONE  method=tau replicate=12/20 | elapsed=15s | overall=12/40 (30.0%) | ETA~7m 19s\n"}
+,{"stream_name":"stdout","time":210.562224401,"data":"[10:30:18] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":210.562268723,"data":"[10:30:18] [Simulation] START method=tau (1/2) replicate=13/20 | overall=12/40 (30.0%)\n"}
+,{"stream_name":"stdout","time":210.763544748,"data":"[10:30:18] [Simulation] DONE  method=tau replicate=12/20 | elapsed=15s | overall=12/40 (30.0%) | ETA~7m 19s\n"}
+,{"stream_name":"stdout","time":210.763588228,"data":"[10:30:18] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":210.763596391,"data":"[10:30:18] [Simulation] START method=tau (1/2) replicate=13/20 | overall=12/40 (30.0%)\n"}
+,{"stream_name":"stdout","time":225.408711244,"data":"[10:30:33] [Simulation] DONE  method=tau replicate=13/20 | elapsed=15s | overall=13/40 (32.5%) | ETA~7m 01s\n"}
+,{"stream_name":"stdout","time":225.411130146,"data":"[10:30:33] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":225.41117281,"data":"[10:30:33] [Simulation] START method=tau (1/2) replicate=14/20 | overall=13/40 (32.5%)\n"}
+,{"stream_name":"stdout","time":225.612095564,"data":"[10:30:33] [Simulation] DONE  method=tau replicate=13/20 | elapsed=15s | overall=13/40 (32.5%) | ETA~7m 01s\n"}
+,{"stream_name":"stdout","time":225.612156145,"data":"[10:30:33] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":225.612165353,"data":"[10:30:33] [Simulation] START method=tau (1/2) replicate=14/20 | overall=13/40 (32.5%)\n"}
+,{"stream_name":"stdout","time":244.250333576,"data":"[10:30:52] [Simulation] DONE  method=tau replicate=14/20 | elapsed=19s | overall=14/40 (35.0%) | ETA~6m 52s\n"}
+,{"stream_name":"stdout","time":244.252793305,"data":"[10:30:52] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":244.252853416,"data":"[10:30:52] [Simulation] START method=tau (1/2) replicate=15/20 | overall=14/40 (35.0%)\n"}
+,{"stream_name":"stdout","time":244.458437941,"data":"[10:30:52] [Simulation] DONE  method=tau replicate=14/20 | elapsed=19s | overall=14/40 (35.0%) | ETA~6m 52s\n"}
+,{"stream_name":"stdout","time":244.458512273,"data":"[10:30:52] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":244.458520996,"data":"[10:30:52] [Simulation] START method=tau (1/2) replicate=15/20 | overall=14/40 (35.0%)\n"}
+,{"stream_name":"stdout","time":258.006777213,"data":"[10:31:06] [Simulation] DONE  method=tau replicate=15/20 | elapsed=14s | overall=15/40 (37.5%) | ETA~6m 32s\n"}
+,{"stream_name":"stdout","time":258.009381662,"data":"[10:31:06] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":258.009425374,"data":"[10:31:06] [Simulation] START method=tau (1/2) replicate=16/20 | overall=15/40 (37.5%)\n"}
+,{"stream_name":"stdout","time":258.21116465,"data":"[10:31:06] [Simulation] DONE  method=tau replicate=15/20 | elapsed=14s | overall=15/40 (37.5%) | ETA~6m 32s\n"}
+,{"stream_name":"stdout","time":258.211220582,"data":"[10:31:06] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":258.211228965,"data":"[10:31:06] [Simulation] START method=tau (1/2) replicate=16/20 | overall=15/40 (37.5%)\n"}
+,{"stream_name":"stdout","time":277.307799126,"data":"[10:31:25] [Simulation] DONE  method=tau replicate=16/20 | elapsed=19s | overall=16/40 (40.0%) | ETA~6m 22s\n"}
+,{"stream_name":"stdout","time":277.310224398,"data":"[10:31:25] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":277.310282412,"data":"[10:31:25] [Simulation] START method=tau (1/2) replicate=17/20 | overall=16/40 (40.0%)\n"}
+,{"stream_name":"stdout","time":277.516401168,"data":"[10:31:25] [Simulation] DONE  method=tau replicate=16/20 | elapsed=19s | overall=16/40 (40.0%) | ETA~6m 22s\n"}
+,{"stream_name":"stdout","time":277.516481262,"data":"[10:31:25] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":277.516491021,"data":"[10:31:25] [Simulation] START method=tau (1/2) replicate=17/20 | overall=16/40 (40.0%)\n"}
+,{"stream_name":"stdout","time":289.213844384,"data":"[10:31:37] [Simulation] DONE  method=tau replicate=17/20 | elapsed=12s | overall=17/40 (42.5%) | ETA~6m 01s\n"}
+,{"stream_name":"stdout","time":289.216171785,"data":"[10:31:37] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":289.216202831,"data":"[10:31:37] [Simulation] START method=tau (1/2) replicate=18/20 | overall=17/40 (42.5%)\n"}
+,{"stream_name":"stdout","time":289.417233117,"data":"[10:31:37] [Simulation] DONE  method=tau replicate=17/20 | elapsed=12s | overall=17/40 (42.5%) | ETA~6m 01s\n"}
+,{"stream_name":"stdout","time":289.417285719,"data":"[10:31:37] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":289.417291626,"data":"[10:31:37] [Simulation] START method=tau (1/2) replicate=18/20 | overall=17/40 (42.5%)\n"}
+,{"stream_name":"stdout","time":301.003885685,"data":"[10:31:49] [Simulation] DONE  method=tau replicate=18/20 | elapsed=12s | overall=18/40 (45.0%) | ETA~5m 40s\n"}
+,{"stream_name":"stdout","time":301.006706308,"data":"[10:31:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":301.006764329,"data":"[10:31:49] [Simulation] START method=tau (1/2) replicate=19/20 | overall=18/40 (45.0%)\n"}
+,{"stream_name":"stdout","time":301.211271647,"data":"[10:31:49] [Simulation] DONE  method=tau replicate=18/20 | elapsed=12s | overall=18/40 (45.0%) | ETA~5m 40s\n"}
+,{"stream_name":"stdout","time":301.211339998,"data":"[10:31:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":301.211348396,"data":"[10:31:49] [Simulation] START method=tau (1/2) replicate=19/20 | overall=18/40 (45.0%)\n"}
+,{"stream_name":"stdout","time":323.787481962,"data":"[10:32:11] [Simulation] DONE  method=tau replicate=19/20 | elapsed=23s | overall=19/40 (47.5%) | ETA~5m 33s\n"}
+,{"stream_name":"stdout","time":323.79027641,"data":"[10:32:11] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":323.790307851,"data":"[10:32:11] [Simulation] START method=tau (1/2) replicate=20/20 | overall=19/40 (47.5%)\n"}
+,{"stream_name":"stdout","time":323.996716213,"data":"[10:32:11] [Simulation] DONE  method=tau replicate=19/20 | elapsed=23s | overall=19/40 (47.5%) | ETA~5m 33s\n"}
+,{"stream_name":"stdout","time":323.996750993,"data":"[10:32:11] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":323.996758547,"data":"[10:32:11] [Simulation] START method=tau (1/2) replicate=20/20 | overall=19/40 (47.5%)\n"}
+,{"stream_name":"stdout","time":340.145598756,"data":"[10:32:28] [Simulation] DONE  method=tau replicate=20/20 | elapsed=16s | overall=20/40 (50.0%) | ETA~5m 18s\n"}
+,{"stream_name":"stdout","time":340.148660552,"data":"[10:32:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":340.149436795,"data":"[10:32:28] [Simulation] START method=submodel (2/2) replicate=1/20 | overall=20/40 (50.0%)\n"}
+,{"stream_name":"stdout","time":340.349158384,"data":"[10:32:28] [Simulation] DONE  method=tau replicate=20/20 | elapsed=16s | overall=20/40 (50.0%) | ETA~5m 18s\n"}
+,{"stream_name":"stdout","time":340.34922173,"data":"[10:32:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":340.349231121,"data":"[10:32:28] [Simulation] START method=submodel (2/2) replicate=1/20 | overall=20/40 (50.0%)\n"}
+,{"stream_name":"stdout","time":358.301017365,"data":"[10:32:46] [Simulation] DONE  method=submodel replicate=1/20 | elapsed=18s | overall=21/40 (52.5%) | ETA~5m 04s\n"}
+,{"stream_name":"stdout","time":358.304111251,"data":"[10:32:46] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":358.30415475,"data":"[10:32:46] [Simulation] START method=submodel (2/2) replicate=2/20 | overall=21/40 (52.5%)\n"}
+,{"stream_name":"stdout","time":358.50997339,"data":"[10:32:46] [Simulation] DONE  method=submodel replicate=1/20 | elapsed=18s | overall=21/40 (52.5%) | ETA~5m 04s\n"}
+,{"stream_name":"stdout","time":358.510007416,"data":"[10:32:46] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":358.510015418,"data":"[10:32:46] [Simulation] START method=submodel (2/2) replicate=2/20 | overall=21/40 (52.5%)\n"}
+,{"stream_name":"stdout","time":383.287581258,"data":"[10:33:11] [Simulation] DONE  method=submodel replicate=2/20 | elapsed=25s | overall=22/40 (55.0%) | ETA~4m 55s\n"}
+,{"stream_name":"stdout","time":383.290527279,"data":"[10:33:11] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":383.290581049,"data":"[10:33:11] [Simulation] START method=submodel (2/2) replicate=3/20 | overall=22/40 (55.0%)\n"}
+,{"stream_name":"stdout","time":383.490957933,"data":"[10:33:11] [Simulation] DONE  method=submodel replicate=2/20 | elapsed=25s | overall=22/40 (55.0%) | ETA~4m 55s\n"}
+,{"stream_name":"stdout","time":383.491000816,"data":"[10:33:11] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":383.491007653,"data":"[10:33:11] [Simulation] START method=submodel (2/2) replicate=3/20 | overall=22/40 (55.0%)\n"}
+,{"stream_name":"stdout","time":400.601108907,"data":"[10:33:28] [Simulation] DONE  method=submodel replicate=3/20 | elapsed=17s | overall=23/40 (57.5%) | ETA~4m 39s\n"}
+,{"stream_name":"stdout","time":400.604286916,"data":"[10:33:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":400.604328751,"data":"[10:33:28] [Simulation] START method=submodel (2/2) replicate=4/20 | overall=23/40 (57.5%)\n"}
+,{"stream_name":"stdout","time":400.810255331,"data":"[10:33:28] [Simulation] DONE  method=submodel replicate=3/20 | elapsed=17s | overall=23/40 (57.5%) | ETA~4m 39s\n"}
+,{"stream_name":"stdout","time":400.810292827,"data":"[10:33:28] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":400.810300894,"data":"[10:33:28] [Simulation] START method=submodel (2/2) replicate=4/20 | overall=23/40 (57.5%)\n"}
+,{"stream_name":"stdout","time":430.148093115,"data":"[10:33:58] [Simulation] DONE  method=submodel replicate=4/20 | elapsed=30s | overall=24/40 (60.0%) | ETA~4m 32s\n"}
+,{"stream_name":"stdout","time":430.151218054,"data":"[10:33:58] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":430.151438171,"data":"[10:33:58] [Simulation] START method=submodel (2/2) replicate=5/20 | overall=24/40 (60.0%)\n"}
+,{"stream_name":"stdout","time":430.351837445,"data":"[10:33:58] [Simulation] DONE  method=submodel replicate=4/20 | elapsed=30s | overall=24/40 (60.0%) | ETA~4m 32s\n"}
+,{"stream_name":"stdout","time":430.351889649,"data":"[10:33:58] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":430.351899104,"data":"[10:33:58] [Simulation] START method=submodel (2/2) replicate=5/20 | overall=24/40 (60.0%)\n"}
+,{"stream_name":"stdout","time":453.333609795,"data":"[10:34:21] [Simulation] DONE  method=submodel replicate=5/20 | elapsed=23s | overall=25/40 (62.5%) | ETA~4m 18s\n"}
+,{"stream_name":"stdout","time":453.336735999,"data":"[10:34:21] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":453.336780536,"data":"[10:34:21] [Simulation] START method=submodel (2/2) replicate=6/20 | overall=25/40 (62.5%)\n"}
+,{"stream_name":"stdout","time":453.544467844,"data":"[10:34:21] [Simulation] DONE  method=submodel replicate=5/20 | elapsed=23s | overall=25/40 (62.5%) | ETA~4m 18s\n"}
+,{"stream_name":"stdout","time":453.544506804,"data":"[10:34:21] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":453.544517158,"data":"[10:34:21] [Simulation] START method=submodel (2/2) replicate=6/20 | overall=25/40 (62.5%)\n"}
+,{"stream_name":"stdout","time":478.16019331,"data":"[10:34:46] [Simulation] DONE  method=submodel replicate=6/20 | elapsed=25s | overall=26/40 (65.0%) | ETA~4m 05s\n"}
+,{"stream_name":"stdout","time":478.163116473,"data":"[10:34:46] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":478.163183965,"data":"[10:34:46] [Simulation] START method=submodel (2/2) replicate=7/20 | overall=26/40 (65.0%)\n"}
+,{"stream_name":"stdout","time":478.363595139,"data":"[10:34:46] [Simulation] DONE  method=submodel replicate=6/20 | elapsed=25s | overall=26/40 (65.0%) | ETA~4m 05s\n"}
+,{"stream_name":"stdout","time":478.363636101,"data":"[10:34:46] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":478.363642451,"data":"[10:34:46] [Simulation] START method=submodel (2/2) replicate=7/20 | overall=26/40 (65.0%)\n"}
+,{"stream_name":"stdout","time":491.636151484,"data":"[10:34:59] [Simulation] DONE  method=submodel replicate=7/20 | elapsed=13s | overall=27/40 (67.5%) | ETA~3m 46s\n"}
+,{"stream_name":"stdout","time":491.639439298,"data":"[10:34:59] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":491.639476472,"data":"[10:34:59] [Simulation] START method=submodel (2/2) replicate=8/20 | overall=27/40 (67.5%)\n"}
+,{"stream_name":"stdout","time":491.845694482,"data":"[10:34:59] [Simulation] DONE  method=submodel replicate=7/20 | elapsed=13s | overall=27/40 (67.5%) | ETA~3m 46s\n"}
+,{"stream_name":"stdout","time":491.845727359,"data":"[10:34:59] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":491.845734414,"data":"[10:34:59] [Simulation] START method=submodel (2/2) replicate=8/20 | overall=27/40 (67.5%)\n"}
+,{"stream_name":"stdout","time":511.752087535,"data":"[10:35:19] [Simulation] DONE  method=submodel replicate=8/20 | elapsed=20s | overall=28/40 (70.0%) | ETA~3m 30s\n"}
+,{"stream_name":"stdout","time":511.755855509,"data":"[10:35:19] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":511.75589276,"data":"[10:35:19] [Simulation] START method=submodel (2/2) replicate=9/20 | overall=28/40 (70.0%)\n"}
+,{"stream_name":"stdout","time":511.955703537,"data":"[10:35:19] [Simulation] DONE  method=submodel replicate=8/20 | elapsed=20s | overall=28/40 (70.0%) | ETA~3m 30s\n"}
+,{"stream_name":"stdout","time":511.955756092,"data":"[10:35:19] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":511.955767277,"data":"[10:35:19] [Simulation] START method=submodel (2/2) replicate=9/20 | overall=28/40 (70.0%)\n"}
+,{"stream_name":"stdout","time":540.996032271,"data":"[10:35:49] [Simulation] DONE  method=submodel replicate=9/20 | elapsed=29s | overall=29/40 (72.5%) | ETA~3m 17s\n"}
+,{"stream_name":"stdout","time":540.99957026,"data":"[10:35:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":540.999678356,"data":"[10:35:49] [Simulation] START method=submodel (2/2) replicate=10/20 | overall=29/40 (72.5%)\n"}
+,{"stream_name":"stdout","time":541.214401077,"data":"[10:35:49] [Simulation] DONE  method=submodel replicate=9/20 | elapsed=29s | overall=29/40 (72.5%) | ETA~3m 17s\n"}
+,{"stream_name":"stdout","time":541.214434993,"data":"[10:35:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":541.214442557,"data":"[10:35:49] [Simulation] START method=submodel (2/2) replicate=10/20 | overall=29/40 (72.5%)\n"}
+,{"stream_name":"stdout","time":568.267424004,"data":"[10:36:16] [Simulation] DONE  method=submodel replicate=10/20 | elapsed=27s | overall=30/40 (75.0%) | ETA~3m 02s\n"}
+,{"stream_name":"stdout","time":568.271053293,"data":"[10:36:16] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":568.271130367,"data":"[10:36:16] [Simulation] START method=submodel (2/2) replicate=11/20 | overall=30/40 (75.0%)\n"}
+,{"stream_name":"stdout","time":568.471560311,"data":"[10:36:16] [Simulation] DONE  method=submodel replicate=10/20 | elapsed=27s | overall=30/40 (75.0%) | ETA~3m 02s\n"}
+,{"stream_name":"stdout","time":568.471635482,"data":"[10:36:16] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":568.471642904,"data":"[10:36:16] [Simulation] START method=submodel (2/2) replicate=11/20 | overall=30/40 (75.0%)\n"}
+,{"stream_name":"stdout","time":592.816738137,"data":"[10:36:40] [Simulation] DONE  method=submodel replicate=11/20 | elapsed=25s | overall=31/40 (77.5%) | ETA~2m 46s\n"}
+,{"stream_name":"stdout","time":592.82026042,"data":"[10:36:40] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":592.82029564,"data":"[10:36:40] [Simulation] START method=submodel (2/2) replicate=12/20 | overall=31/40 (77.5%)\n"}
+,{"stream_name":"stdout","time":593.026501888,"data":"[10:36:40] [Simulation] DONE  method=submodel replicate=11/20 | elapsed=25s | overall=31/40 (77.5%) | ETA~2m 46s\n"}
+,{"stream_name":"stdout","time":593.026802075,"data":"[10:36:40] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":593.026813413,"data":"[10:36:40] [Simulation] START method=submodel (2/2) replicate=12/20 | overall=31/40 (77.5%)\n"}
+,{"stream_name":"stdout","time":615.846333646,"data":"[10:37:03] [Simulation] DONE  method=submodel replicate=12/20 | elapsed=23s | overall=32/40 (80.0%) | ETA~2m 28s\n"}
+,{"stream_name":"stdout","time":615.849983475,"data":"[10:37:03] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":615.850013245,"data":"[10:37:03] [Simulation] START method=submodel (2/2) replicate=13/20 | overall=32/40 (80.0%)\n"}
+,{"stream_name":"stdout","time":616.049999618,"data":"[10:37:03] [Simulation] DONE  method=submodel replicate=12/20 | elapsed=23s | overall=32/40 (80.0%) | ETA~2m 28s\n"}
+,{"stream_name":"stdout","time":616.050057263,"data":"[10:37:03] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":616.050068213,"data":"[10:37:03] [Simulation] START method=submodel (2/2) replicate=13/20 | overall=32/40 (80.0%)\n"}
+,{"stream_name":"stdout","time":639.263069112,"data":"[10:37:27] [Simulation] DONE  method=submodel replicate=13/20 | elapsed=23s | overall=33/40 (82.5%) | ETA~2m 11s\n"}
+,{"stream_name":"stdout","time":639.267114182,"data":"[10:37:27] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":639.26715531,"data":"[10:37:27] [Simulation] START method=submodel (2/2) replicate=14/20 | overall=33/40 (82.5%)\n"}
+,{"stream_name":"stdout","time":639.473730372,"data":"[10:37:27] [Simulation] DONE  method=submodel replicate=13/20 | elapsed=23s | overall=33/40 (82.5%) | ETA~2m 11s\n"}
+,{"stream_name":"stdout","time":639.473759243,"data":"[10:37:27] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":639.473766758,"data":"[10:37:27] [Simulation] START method=submodel (2/2) replicate=14/20 | overall=33/40 (82.5%)\n"}
+,{"stream_name":"stdout","time":661.413713732,"data":"[10:37:49] [Simulation] DONE  method=submodel replicate=14/20 | elapsed=22s | overall=34/40 (85.0%) | ETA~1m 53s\n"}
+,{"stream_name":"stdout","time":661.418129993,"data":"[10:37:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":661.418181804,"data":"[10:37:49] [Simulation] START method=submodel (2/2) replicate=15/20 | overall=34/40 (85.0%)\n"}
+,{"stream_name":"stdout","time":661.617823844,"data":"[10:37:49] [Simulation] DONE  method=submodel replicate=14/20 | elapsed=22s | overall=34/40 (85.0%) | ETA~1m 53s\n"}
+,{"stream_name":"stdout","time":661.617867518,"data":"[10:37:49] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":661.617874772,"data":"[10:37:49] [Simulation] START method=submodel (2/2) replicate=15/20 | overall=34/40 (85.0%)\n"}
+,{"stream_name":"stdout","time":682.539512723,"data":"[10:38:10] [Simulation] DONE  method=submodel replicate=15/20 | elapsed=21s | overall=35/40 (87.5%) | ETA~1m 34s\n"}
+,{"stream_name":"stdout","time":682.543118707,"data":"[10:38:10] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":682.54315493,"data":"[10:38:10] [Simulation] START method=submodel (2/2) replicate=16/20 | overall=35/40 (87.5%)\n"}
+,{"stream_name":"stdout","time":682.750244989,"data":"[10:38:10] [Simulation] DONE  method=submodel replicate=15/20 | elapsed=21s | overall=35/40 (87.5%) | ETA~1m 34s\n"}
+,{"stream_name":"stdout","time":682.750278358,"data":"[10:38:10] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":682.750285866,"data":"[10:38:10] [Simulation] START method=submodel (2/2) replicate=16/20 | overall=35/40 (87.5%)\n"}
+,{"stream_name":"stdout","time":705.750193528,"data":"[10:38:33] [Simulation] DONE  method=submodel replicate=16/20 | elapsed=23s | overall=36/40 (90.0%) | ETA~1m 16s\n"}
+,{"stream_name":"stdout","time":705.754596885,"data":"[10:38:33] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":705.7546282,"data":"[10:38:33] [Simulation] START method=submodel (2/2) replicate=17/20 | overall=36/40 (90.0%)\n"}
+,{"stream_name":"stdout","time":705.957070587,"data":"[10:38:33] [Simulation] DONE  method=submodel replicate=16/20 | elapsed=23s | overall=36/40 (90.0%) | ETA~1m 16s\n"}
+,{"stream_name":"stdout","time":705.957147546,"data":"[10:38:33] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":705.957158336,"data":"[10:38:33] [Simulation] START method=submodel (2/2) replicate=17/20 | overall=36/40 (90.0%)\n"}
+,{"stream_name":"stdout","time":724.938991813,"data":"[10:38:53] [Simulation] DONE  method=submodel replicate=17/20 | elapsed=19s | overall=37/40 (92.5%) | ETA~57s\n"}
+,{"stream_name":"stdout","time":724.943131337,"data":"[10:38:53] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":724.943163237,"data":"[10:38:53] [Simulation] START method=submodel (2/2) replicate=18/20 | overall=37/40 (92.5%)\n"}
+,{"stream_name":"stdout","time":725.150861684,"data":"[10:38:53] [Simulation] DONE  method=submodel replicate=17/20 | elapsed=19s | overall=37/40 (92.5%) | ETA~57s\n"}
+,{"stream_name":"stdout","time":725.150927153,"data":"[10:38:53] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":725.150934609,"data":"[10:38:53] [Simulation] START method=submodel (2/2) replicate=18/20 | overall=37/40 (92.5%)\n"}
+,{"stream_name":"stdout","time":740.907841595,"data":"[10:39:08] [Simulation] DONE  method=submodel replicate=18/20 | elapsed=16s | overall=38/40 (95.0%) | ETA~38s\n"}
+,{"stream_name":"stdout","time":740.91185688,"data":"[10:39:08] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":740.911897062,"data":"[10:39:08] [Simulation] START method=submodel (2/2) replicate=19/20 | overall=38/40 (95.0%)\n"}
+,{"stream_name":"stdout","time":741.111214286,"data":"[10:39:08] [Simulation] DONE  method=submodel replicate=18/20 | elapsed=16s | overall=38/40 (95.0%) | ETA~38s\n"}
+,{"stream_name":"stdout","time":741.11125754,"data":"[10:39:08] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":741.111264214,"data":"[10:39:08] [Simulation] START method=submodel (2/2) replicate=19/20 | overall=38/40 (95.0%)\n"}
+,{"stream_name":"stdout","time":776.59541582,"data":"[10:39:44] [Simulation] DONE  method=submodel replicate=19/20 | elapsed=36s | overall=39/40 (97.5%) | ETA~19s\n"}
+,{"stream_name":"stdout","time":776.599921978,"data":"[10:39:44] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":776.599960776,"data":"[10:39:44] [Simulation] START method=submodel (2/2) replicate=20/20 | overall=39/40 (97.5%)\n"}
+,{"stream_name":"stdout","time":776.811240019,"data":"[10:39:44] [Simulation] DONE  method=submodel replicate=19/20 | elapsed=36s | overall=39/40 (97.5%) | ETA~19s\n"}
+,{"stream_name":"stdout","time":776.811276792,"data":"[10:39:44] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":776.811286033,"data":"[10:39:44] [Simulation] START method=submodel (2/2) replicate=20/20 | overall=39/40 (97.5%)\n"}
+,{"stream_name":"stdout","time":799.697334459,"data":"[10:40:07] [Simulation] DONE  method=submodel replicate=20/20 | elapsed=23s | overall=40/40 (100.0%) | ETA~0s\n"}
+,{"stream_name":"stdout","time":799.701677105,"data":"[10:40:07] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":799.702221734,"data":"[10:40:07] [Simulation] COMPLETE scenario=B p=8 | 40/40 units\n"}
+,{"stream_name":"stdout","time":799.706309201,"data":"[10:40:07] [Simulation] ALL REQUESTED CONFIGURATIONS COMPLETE\n"}
+,{"stream_name":"stdout","time":799.900384823,"data":"[10:40:07] [Simulation] DONE  method=submodel replicate=20/20 | elapsed=23s | overall=40/40 (100.0%) | ETA~0s\n"}
+,{"stream_name":"stdout","time":799.9004295,"data":"[10:40:07] [Simulation] CHECKPOINT /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":799.900436859,"data":"[10:40:07] [Simulation] COMPLETE scenario=B p=8 | 40/40 units\n"}
+,{"stream_name":"stdout","time":799.900443717,"data":"[10:40:07] [Simulation] ALL REQUESTED CONFIGURATIONS COMPLETE\n"}
+,{"stream_name":"stdout","time":800.605463837,"data":"Wrote /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":800.808074895,"data":"Wrote /kaggle/working/simulation-B-p8-results/simulation-B-p8.json\n"}
+,{"stream_name":"stdout","time":801.688212809,"data":"Download: /kaggle/working/simulation-B-p8-results.zip\n"}
+,{"stream_name":"stderr","time":805.160245727,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":805.160296364,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":805.368741679,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":805.368769744,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":806.154720866,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":806.562602887,"data":"[NbConvertApp] Writing 106439 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":809.776706865,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":810.882448212,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":810.882482502,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":810.882917192,"data":"[NbConvertApp] Writing 310374 bytes to __results__.html\n"}
+]

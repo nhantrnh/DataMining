@@ -1,0 +1,277 @@
+[{"stream_name":"stderr","time":7.682401106,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.682495944,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.682504654,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.68250947,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.404915745,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.404985667,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.404992911,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.405007969,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.28660767,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.489511897,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.84760115,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":16.549166238,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":16.549212088,"data":"Output: /kaggle/working/simulation-mle-B-p20-results\n"}
+,{"stream_name":"stdout","time":16.562375925,"data":"{'scenario': 'B', 'p': '20', 'replicates': 20, 'method': 'both', 'backend': 'mle', 'parallel': 1}\n"}
+,{"stream_name":"stdout","time":16.755630793999998,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/simulation.py --scenario B --p 20 --replicates 20 --method both --source saved --alpha 0.05 --itmax 500 --rcon-backend mle --parallel 1 --output /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json --resume\n"}
+,{"stream_name":"stdout","time":20.012644801,"data":"[16:02:01] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":20.027479063,"data":"[16:02:01] [Simulation] configuration scenario=B p=20 | methods=tau,submodel | replicates=20 | completed=0/40\n"}
+,{"stream_name":"stdout","time":20.027573463,"data":"[16:02:01] [Simulation] START method=tau (1/2) replicate=1/20 | overall=0/40 (0.0%)\n"}
+,{"stream_name":"stdout","time":20.215962082,"data":"[16:02:01] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":20.216041016,"data":"[16:02:01] [Simulation] configuration scenario=B p=20 | methods=tau,submodel | replicates=20 | completed=0/40\n"}
+,{"stream_name":"stdout","time":20.216049676,"data":"[16:02:01] [Simulation] START method=tau (1/2) replicate=1/20 | overall=0/40 (0.0%)\n"}
+,{"stream_name":"stdout","time":611.124136974,"data":"[16:11:52] [Simulation] DONE  method=tau replicate=1/20 | elapsed=9m 51s | overall=1/40 (2.5%) | ETA~6h 24m 13s\n"}
+,{"stream_name":"stdout","time":611.125121581,"data":"[16:11:52] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":611.125144331,"data":"[16:11:52] [Simulation] START method=tau (1/2) replicate=2/20 | overall=1/40 (2.5%)\n"}
+,{"stream_name":"stdout","time":611.331182705,"data":"[16:11:52] [Simulation] DONE  method=tau replicate=1/20 | elapsed=9m 51s | overall=1/40 (2.5%) | ETA~6h 24m 13s\n"}
+,{"stream_name":"stdout","time":611.331227576,"data":"[16:11:52] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":611.331240214,"data":"[16:11:52] [Simulation] START method=tau (1/2) replicate=2/20 | overall=1/40 (2.5%)\n"}
+,{"stream_name":"stdout","time":1236.906648991,"data":"[16:22:18] [Simulation] DONE  method=tau replicate=2/20 | elapsed=10m 26s | overall=2/40 (5.0%) | ETA~6h 25m 21s\n"}
+,{"stream_name":"stdout","time":1236.908467759,"data":"[16:22:18] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":1236.90849442,"data":"[16:22:18] [Simulation] START method=tau (1/2) replicate=3/20 | overall=2/40 (5.0%)\n"}
+,{"stream_name":"stdout","time":1237.111793295,"data":"[16:22:18] [Simulation] DONE  method=tau replicate=2/20 | elapsed=10m 26s | overall=2/40 (5.0%) | ETA~6h 25m 21s\n"}
+,{"stream_name":"stdout","time":1237.111824905,"data":"[16:22:18] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":1237.111841996,"data":"[16:22:18] [Simulation] START method=tau (1/2) replicate=3/20 | overall=2/40 (5.0%)\n"}
+,{"stream_name":"stdout","time":1927.890774304,"data":"[16:33:49] [Simulation] DONE  method=tau replicate=3/20 | elapsed=11m 31s | overall=3/40 (7.5%) | ETA~6h 32m 10s\n"}
+,{"stream_name":"stdout","time":1927.892765622,"data":"[16:33:49] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":1927.892799295,"data":"[16:33:49] [Simulation] START method=tau (1/2) replicate=4/20 | overall=3/40 (7.5%)\n"}
+,{"stream_name":"stdout","time":1928.098483428,"data":"[16:33:49] [Simulation] DONE  method=tau replicate=3/20 | elapsed=11m 31s | overall=3/40 (7.5%) | ETA~6h 32m 10s\n"}
+,{"stream_name":"stdout","time":1928.098514507,"data":"[16:33:49] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":1928.0985287,"data":"[16:33:49] [Simulation] START method=tau (1/2) replicate=4/20 | overall=3/40 (7.5%)\n"}
+,{"stream_name":"stdout","time":2456.413745668,"data":"[16:42:38] [Simulation] DONE  method=tau replicate=4/20 | elapsed=8m 49s | overall=4/40 (10.0%) | ETA~6h 05m 27s\n"}
+,{"stream_name":"stdout","time":2456.415884371,"data":"[16:42:38] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":2456.415915523,"data":"[16:42:38] [Simulation] START method=tau (1/2) replicate=5/20 | overall=4/40 (10.0%)\n"}
+,{"stream_name":"stdout","time":2456.619156976,"data":"[16:42:38] [Simulation] DONE  method=tau replicate=4/20 | elapsed=8m 49s | overall=4/40 (10.0%) | ETA~6h 05m 27s\n"}
+,{"stream_name":"stdout","time":2456.619187731,"data":"[16:42:38] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":2456.619194727,"data":"[16:42:38] [Simulation] START method=tau (1/2) replicate=5/20 | overall=4/40 (10.0%)\n"}
+,{"stream_name":"stdout","time":3028.562111617,"data":"[16:52:10] [Simulation] DONE  method=tau replicate=5/20 | elapsed=9m 32s | overall=5/40 (12.5%) | ETA~5h 51m 00s\n"}
+,{"stream_name":"stdout","time":3028.564760842,"data":"[16:52:10] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":3028.564804112,"data":"[16:52:10] [Simulation] START method=tau (1/2) replicate=6/20 | overall=5/40 (12.5%)\n"}
+,{"stream_name":"stdout","time":3028.772002998,"data":"[16:52:10] [Simulation] DONE  method=tau replicate=5/20 | elapsed=9m 32s | overall=5/40 (12.5%) | ETA~5h 51m 00s\n"}
+,{"stream_name":"stdout","time":3028.772069783,"data":"[16:52:10] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":3028.772077605,"data":"[16:52:10] [Simulation] START method=tau (1/2) replicate=6/20 | overall=5/40 (12.5%)\n"}
+,{"stream_name":"stdout","time":3682.547118239,"data":"[17:03:04] [Simulation] DONE  method=tau replicate=6/20 | elapsed=10m 54s | overall=6/40 (15.0%) | ETA~5h 45m 54s\n"}
+,{"stream_name":"stdout","time":3682.549533219,"data":"[17:03:04] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":3682.549574837,"data":"[17:03:04] [Simulation] START method=tau (1/2) replicate=7/20 | overall=6/40 (15.0%)\n"}
+,{"stream_name":"stdout","time":3682.754443573,"data":"[17:03:04] [Simulation] DONE  method=tau replicate=6/20 | elapsed=10m 54s | overall=6/40 (15.0%) | ETA~5h 45m 54s\n"}
+,{"stream_name":"stdout","time":3682.754488571,"data":"[17:03:04] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":3682.754497297,"data":"[17:03:04] [Simulation] START method=tau (1/2) replicate=7/20 | overall=6/40 (15.0%)\n"}
+,{"stream_name":"stdout","time":4262.43139405,"data":"[17:12:44] [Simulation] DONE  method=tau replicate=7/20 | elapsed=9m 40s | overall=7/40 (17.5%) | ETA~5h 33m 20s\n"}
+,{"stream_name":"stdout","time":4262.434113471,"data":"[17:12:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":4262.434141622,"data":"[17:12:44] [Simulation] START method=tau (1/2) replicate=8/20 | overall=7/40 (17.5%)\n"}
+,{"stream_name":"stdout","time":4262.637475396,"data":"[17:12:44] [Simulation] DONE  method=tau replicate=7/20 | elapsed=9m 40s | overall=7/40 (17.5%) | ETA~5h 33m 20s\n"}
+,{"stream_name":"stdout","time":4262.637519556,"data":"[17:12:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":4262.637527553,"data":"[17:12:44] [Simulation] START method=tau (1/2) replicate=8/20 | overall=7/40 (17.5%)\n"}
+,{"stream_name":"stdout","time":4933.992264066,"data":"[17:23:55] [Simulation] DONE  method=tau replicate=8/20 | elapsed=11m 12s | overall=8/40 (20.0%) | ETA~5h 27m 36s\n"}
+,{"stream_name":"stdout","time":4933.995097146,"data":"[17:23:55] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":4933.995127564,"data":"[17:23:55] [Simulation] START method=tau (1/2) replicate=9/20 | overall=8/40 (20.0%)\n"}
+,{"stream_name":"stdout","time":4934.197560059,"data":"[17:23:55] [Simulation] DONE  method=tau replicate=8/20 | elapsed=11m 12s | overall=8/40 (20.0%) | ETA~5h 27m 36s\n"}
+,{"stream_name":"stdout","time":4934.197596927,"data":"[17:23:55] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":4934.197603591,"data":"[17:23:55] [Simulation] START method=tau (1/2) replicate=9/20 | overall=8/40 (20.0%)\n"}
+,{"stream_name":"stdout","time":5564.811810739,"data":"[17:34:26] [Simulation] DONE  method=tau replicate=9/20 | elapsed=10m 31s | overall=9/40 (22.5%) | ETA~5h 18m 19s\n"}
+,{"stream_name":"stdout","time":5564.815421068,"data":"[17:34:26] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":5564.815450841,"data":"[17:34:26] [Simulation] START method=tau (1/2) replicate=10/20 | overall=9/40 (22.5%)\n"}
+,{"stream_name":"stdout","time":5565.017682211,"data":"[17:34:26] [Simulation] DONE  method=tau replicate=9/20 | elapsed=10m 31s | overall=9/40 (22.5%) | ETA~5h 18m 19s\n"}
+,{"stream_name":"stdout","time":5565.017723195,"data":"[17:34:26] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":5565.017729376,"data":"[17:34:26] [Simulation] START method=tau (1/2) replicate=10/20 | overall=9/40 (22.5%)\n"}
+,{"stream_name":"stdout","time":6194.925697024,"data":"[17:44:56] [Simulation] DONE  method=tau replicate=10/20 | elapsed=10m 30s | overall=10/40 (25.0%) | ETA~5h 08m 45s\n"}
+,{"stream_name":"stdout","time":6194.928937293,"data":"[17:44:56] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":6194.928968867,"data":"[17:44:56] [Simulation] START method=tau (1/2) replicate=11/20 | overall=10/40 (25.0%)\n"}
+,{"stream_name":"stdout","time":6195.131001946,"data":"[17:44:56] [Simulation] DONE  method=tau replicate=10/20 | elapsed=10m 30s | overall=10/40 (25.0%) | ETA~5h 08m 45s\n"}
+,{"stream_name":"stdout","time":6195.131035854,"data":"[17:44:56] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":6195.131042424,"data":"[17:44:56] [Simulation] START method=tau (1/2) replicate=11/20 | overall=10/40 (25.0%)\n"}
+,{"stream_name":"stdout","time":6754.02638457,"data":"[17:54:15] [Simulation] DONE  method=tau replicate=11/20 | elapsed=9m 19s | overall=11/40 (27.5%) | ETA~4h 55m 53s\n"}
+,{"stream_name":"stdout","time":6754.029971461,"data":"[17:54:15] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":6754.030037311,"data":"[17:54:15] [Simulation] START method=tau (1/2) replicate=12/20 | overall=11/40 (27.5%)\n"}
+,{"stream_name":"stdout","time":6754.232073731,"data":"[17:54:15] [Simulation] DONE  method=tau replicate=11/20 | elapsed=9m 19s | overall=11/40 (27.5%) | ETA~4h 55m 53s\n"}
+,{"stream_name":"stdout","time":6754.232106355,"data":"[17:54:15] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":6754.232114239,"data":"[17:54:15] [Simulation] START method=tau (1/2) replicate=12/20 | overall=11/40 (27.5%)\n"}
+,{"stream_name":"stdout","time":7347.117182092,"data":"[18:04:08] [Simulation] DONE  method=tau replicate=12/20 | elapsed=9m 53s | overall=12/40 (30.0%) | ETA~4h 44m 56s\n"}
+,{"stream_name":"stdout","time":7347.121279511,"data":"[18:04:08] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":7347.12130476,"data":"[18:04:08] [Simulation] START method=tau (1/2) replicate=13/20 | overall=12/40 (30.0%)\n"}
+,{"stream_name":"stdout","time":7347.326920883,"data":"[18:04:08] [Simulation] DONE  method=tau replicate=12/20 | elapsed=9m 53s | overall=12/40 (30.0%) | ETA~4h 44m 56s\n"}
+,{"stream_name":"stdout","time":7347.326952272,"data":"[18:04:08] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":7347.326959357,"data":"[18:04:08] [Simulation] START method=tau (1/2) replicate=13/20 | overall=12/40 (30.0%)\n"}
+,{"stream_name":"stdout","time":7888.606216448,"data":"[18:13:10] [Simulation] DONE  method=tau replicate=13/20 | elapsed=9m 01s | overall=13/40 (32.5%) | ETA~4h 32m 22s\n"}
+,{"stream_name":"stdout","time":7888.610245773,"data":"[18:13:10] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":7888.610292368,"data":"[18:13:10] [Simulation] START method=tau (1/2) replicate=14/20 | overall=13/40 (32.5%)\n"}
+,{"stream_name":"stdout","time":7888.812113054,"data":"[18:13:10] [Simulation] DONE  method=tau replicate=13/20 | elapsed=9m 01s | overall=13/40 (32.5%) | ETA~4h 32m 22s\n"}
+,{"stream_name":"stdout","time":7888.812153577,"data":"[18:13:10] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":7888.812159704,"data":"[18:13:10] [Simulation] START method=tau (1/2) replicate=14/20 | overall=13/40 (32.5%)\n"}
+,{"stream_name":"stdout","time":8582.79629816,"data":"[18:24:44] [Simulation] DONE  method=tau replicate=14/20 | elapsed=11m 34s | overall=14/40 (35.0%) | ETA~4h 25m 02s\n"}
+,{"stream_name":"stdout","time":8582.8004003,"data":"[18:24:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":8582.800432757,"data":"[18:24:44] [Simulation] START method=tau (1/2) replicate=15/20 | overall=14/40 (35.0%)\n"}
+,{"stream_name":"stdout","time":8583.003739402,"data":"[18:24:44] [Simulation] DONE  method=tau replicate=14/20 | elapsed=11m 34s | overall=14/40 (35.0%) | ETA~4h 25m 02s\n"}
+,{"stream_name":"stdout","time":8583.003778197,"data":"[18:24:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":8583.003786815,"data":"[18:24:44] [Simulation] START method=tau (1/2) replicate=15/20 | overall=14/40 (35.0%)\n"}
+,{"stream_name":"stdout","time":9211.915757058,"data":"[18:35:13] [Simulation] DONE  method=tau replicate=15/20 | elapsed=10m 29s | overall=15/40 (37.5%) | ETA~4h 15m 20s\n"}
+,{"stream_name":"stdout","time":9211.919973693,"data":"[18:35:13] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":9211.92000402,"data":"[18:35:13] [Simulation] START method=tau (1/2) replicate=16/20 | overall=15/40 (37.5%)\n"}
+,{"stream_name":"stdout","time":9212.122159737,"data":"[18:35:13] [Simulation] DONE  method=tau replicate=15/20 | elapsed=10m 29s | overall=15/40 (37.5%) | ETA~4h 15m 20s\n"}
+,{"stream_name":"stdout","time":9212.122207797,"data":"[18:35:13] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":9212.122217178,"data":"[18:35:13] [Simulation] START method=tau (1/2) replicate=16/20 | overall=15/40 (37.5%)\n"}
+,{"stream_name":"stdout","time":9883.530046298,"data":"[18:46:25] [Simulation] DONE  method=tau replicate=16/20 | elapsed=11m 12s | overall=16/40 (40.0%) | ETA~4h 06m 35s\n"}
+,{"stream_name":"stdout","time":9883.534568997,"data":"[18:46:25] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":9883.53459835,"data":"[18:46:25] [Simulation] START method=tau (1/2) replicate=17/20 | overall=16/40 (40.0%)\n"}
+,{"stream_name":"stdout","time":9883.735617776,"data":"[18:46:25] [Simulation] DONE  method=tau replicate=16/20 | elapsed=11m 12s | overall=16/40 (40.0%) | ETA~4h 06m 35s\n"}
+,{"stream_name":"stdout","time":9883.73565177,"data":"[18:46:25] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":9883.735659222,"data":"[18:46:25] [Simulation] START method=tau (1/2) replicate=17/20 | overall=16/40 (40.0%)\n"}
+,{"stream_name":"stdout","time":10512.402807967,"data":"[18:56:54] [Simulation] DONE  method=tau replicate=17/20 | elapsed=10m 29s | overall=17/40 (42.5%) | ETA~3h 56m 35s\n"}
+,{"stream_name":"stdout","time":10512.407787233,"data":"[18:56:54] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":10512.407825836,"data":"[18:56:54] [Simulation] START method=tau (1/2) replicate=18/20 | overall=17/40 (42.5%)\n"}
+,{"stream_name":"stdout","time":10512.609114361,"data":"[18:56:54] [Simulation] DONE  method=tau replicate=17/20 | elapsed=10m 29s | overall=17/40 (42.5%) | ETA~3h 56m 35s\n"}
+,{"stream_name":"stdout","time":10512.609147534,"data":"[18:56:54] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":10512.60915291,"data":"[18:56:54] [Simulation] START method=tau (1/2) replicate=18/20 | overall=17/40 (42.5%)\n"}
+,{"stream_name":"stdout","time":11162.630392372,"data":"[19:07:44] [Simulation] DONE  method=tau replicate=18/20 | elapsed=10m 50s | overall=18/40 (45.0%) | ETA~3h 46m 59s\n"}
+,{"stream_name":"stdout","time":11162.635603267,"data":"[19:07:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":11162.635647762,"data":"[19:07:44] [Simulation] START method=tau (1/2) replicate=19/20 | overall=18/40 (45.0%)\n"}
+,{"stream_name":"stdout","time":11162.836858212,"data":"[19:07:44] [Simulation] DONE  method=tau replicate=18/20 | elapsed=10m 50s | overall=18/40 (45.0%) | ETA~3h 46m 59s\n"}
+,{"stream_name":"stdout","time":11162.836890861,"data":"[19:07:44] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":11162.83689778,"data":"[19:07:44] [Simulation] START method=tau (1/2) replicate=19/20 | overall=18/40 (45.0%)\n"}
+,{"stream_name":"stdout","time":11727.697995466,"data":"[19:17:09] [Simulation] DONE  method=tau replicate=19/20 | elapsed=9m 25s | overall=19/40 (47.5%) | ETA~3h 35m 40s\n"}
+,{"stream_name":"stdout","time":11727.703207036,"data":"[19:17:09] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":11727.703245106,"data":"[19:17:09] [Simulation] START method=tau (1/2) replicate=20/20 | overall=19/40 (47.5%)\n"}
+,{"stream_name":"stdout","time":11727.90370947,"data":"[19:17:09] [Simulation] DONE  method=tau replicate=19/20 | elapsed=9m 25s | overall=19/40 (47.5%) | ETA~3h 35m 40s\n"}
+,{"stream_name":"stdout","time":11727.903741222,"data":"[19:17:09] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":11727.903747873,"data":"[19:17:09] [Simulation] START method=tau (1/2) replicate=20/20 | overall=19/40 (47.5%)\n"}
+,{"stream_name":"stdout","time":12390.050963626,"data":"[19:28:11] [Simulation] DONE  method=tau replicate=20/20 | elapsed=11m 02s | overall=20/40 (50.0%) | ETA~3h 26m 10s\n"}
+,{"stream_name":"stdout","time":12390.056460776,"data":"[19:28:11] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":12390.057034259,"data":"[19:28:11] [Simulation] START method=submodel (2/2) replicate=1/20 | overall=20/40 (50.0%)\n"}
+,{"stream_name":"stdout","time":12390.257334679,"data":"[19:28:11] [Simulation] DONE  method=tau replicate=20/20 | elapsed=11m 02s | overall=20/40 (50.0%) | ETA~3h 26m 10s\n"}
+,{"stream_name":"stdout","time":12390.257373649,"data":"[19:28:11] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":12390.257381658,"data":"[19:28:11] [Simulation] START method=submodel (2/2) replicate=1/20 | overall=20/40 (50.0%)\n"}
+,{"stream_name":"stdout","time":13449.75795499,"data":"[19:45:51] [Simulation] DONE  method=submodel replicate=1/20 | elapsed=17m 40s | overall=21/40 (52.5%) | ETA~3h 22m 31s\n"}
+,{"stream_name":"stdout","time":13449.763508502,"data":"[19:45:51] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":13449.763583036,"data":"[19:45:51] [Simulation] START method=submodel (2/2) replicate=2/20 | overall=21/40 (52.5%)\n"}
+,{"stream_name":"stdout","time":13449.963972637,"data":"[19:45:51] [Simulation] DONE  method=submodel replicate=1/20 | elapsed=17m 40s | overall=21/40 (52.5%) | ETA~3h 22m 31s\n"}
+,{"stream_name":"stdout","time":13449.964001798,"data":"[19:45:51] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":13449.964007646,"data":"[19:45:51] [Simulation] START method=submodel (2/2) replicate=2/20 | overall=21/40 (52.5%)\n"}
+,{"stream_name":"stdout","time":14614.972895603,"data":"[20:05:16] [Simulation] DONE  method=submodel replicate=2/20 | elapsed=19m 25s | overall=22/40 (55.0%) | ETA~3h 19m 01s\n"}
+,{"stream_name":"stdout","time":14614.979257573,"data":"[20:05:16] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":14614.979293632,"data":"[20:05:16] [Simulation] START method=submodel (2/2) replicate=3/20 | overall=22/40 (55.0%)\n"}
+,{"stream_name":"stdout","time":14615.182860152,"data":"[20:05:16] [Simulation] DONE  method=submodel replicate=2/20 | elapsed=19m 25s | overall=22/40 (55.0%) | ETA~3h 19m 01s\n"}
+,{"stream_name":"stdout","time":14615.182909984,"data":"[20:05:16] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":14615.182919786,"data":"[20:05:16] [Simulation] START method=submodel (2/2) replicate=3/20 | overall=22/40 (55.0%)\n"}
+,{"stream_name":"stdout","time":15823.578280847,"data":"[20:25:25] [Simulation] DONE  method=submodel replicate=3/20 | elapsed=20m 09s | overall=23/40 (57.5%) | ETA~3h 14m 41s\n"}
+,{"stream_name":"stdout","time":15823.584373729,"data":"[20:25:25] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":15823.58440658,"data":"[20:25:25] [Simulation] START method=submodel (2/2) replicate=4/20 | overall=23/40 (57.5%)\n"}
+,{"stream_name":"stdout","time":15823.787672522,"data":"[20:25:25] [Simulation] DONE  method=submodel replicate=3/20 | elapsed=20m 09s | overall=23/40 (57.5%) | ETA~3h 14m 41s\n"}
+,{"stream_name":"stdout","time":15823.787719363,"data":"[20:25:25] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":15823.787726846,"data":"[20:25:25] [Simulation] START method=submodel (2/2) replicate=4/20 | overall=23/40 (57.5%)\n"}
+,{"stream_name":"stdout","time":16848.995726279,"data":"[20:42:30] [Simulation] DONE  method=submodel replicate=4/20 | elapsed=17m 05s | overall=24/40 (60.0%) | ETA~3h 06m 59s\n"}
+,{"stream_name":"stdout","time":16849.001781118,"data":"[20:42:30] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":16849.001811752,"data":"[20:42:30] [Simulation] START method=submodel (2/2) replicate=5/20 | overall=24/40 (60.0%)\n"}
+,{"stream_name":"stdout","time":16849.205822227,"data":"[20:42:30] [Simulation] DONE  method=submodel replicate=4/20 | elapsed=17m 05s | overall=24/40 (60.0%) | ETA~3h 06m 59s\n"}
+,{"stream_name":"stdout","time":16849.205855893,"data":"[20:42:30] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":16849.205866411,"data":"[20:42:30] [Simulation] START method=submodel (2/2) replicate=5/20 | overall=24/40 (60.0%)\n"}
+,{"stream_name":"stdout","time":17904.585530787,"data":"[21:00:06] [Simulation] DONE  method=submodel replicate=5/20 | elapsed=17m 36s | overall=25/40 (62.5%) | ETA~2h 58m 51s\n"}
+,{"stream_name":"stdout","time":17904.592146035,"data":"[21:00:06] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":17904.592195709,"data":"[21:00:06] [Simulation] START method=submodel (2/2) replicate=6/20 | overall=25/40 (62.5%)\n"}
+,{"stream_name":"stdout","time":17904.792948132,"data":"[21:00:06] [Simulation] DONE  method=submodel replicate=5/20 | elapsed=17m 36s | overall=25/40 (62.5%) | ETA~2h 58m 51s\n"}
+,{"stream_name":"stdout","time":17904.792984101,"data":"[21:00:06] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":17904.792991339,"data":"[21:00:06] [Simulation] START method=submodel (2/2) replicate=6/20 | overall=25/40 (62.5%)\n"}
+,{"stream_name":"stdout","time":18909.54563114,"data":"[21:16:51] [Simulation] DONE  method=submodel replicate=6/20 | elapsed=16m 45s | overall=26/40 (65.0%) | ETA~2h 49m 31s\n"}
+,{"stream_name":"stdout","time":18909.552435594,"data":"[21:16:51] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":18909.552474657,"data":"[21:16:51] [Simulation] START method=submodel (2/2) replicate=7/20 | overall=26/40 (65.0%)\n"}
+,{"stream_name":"stdout","time":18909.754558639,"data":"[21:16:51] [Simulation] DONE  method=submodel replicate=6/20 | elapsed=16m 45s | overall=26/40 (65.0%) | ETA~2h 49m 31s\n"}
+,{"stream_name":"stdout","time":18909.754604774,"data":"[21:16:51] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":18909.75461206,"data":"[21:16:51] [Simulation] START method=submodel (2/2) replicate=7/20 | overall=26/40 (65.0%)\n"}
+,{"stream_name":"stdout","time":20076.628771068,"data":"[21:36:18] [Simulation] DONE  method=submodel replicate=7/20 | elapsed=19m 27s | overall=27/40 (67.5%) | ETA~2h 40m 57s\n"}
+,{"stream_name":"stdout","time":20076.635243426,"data":"[21:36:18] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":20076.635273862,"data":"[21:36:18] [Simulation] START method=submodel (2/2) replicate=8/20 | overall=27/40 (67.5%)\n"}
+,{"stream_name":"stdout","time":20076.834799545,"data":"[21:36:18] [Simulation] DONE  method=submodel replicate=7/20 | elapsed=19m 27s | overall=27/40 (67.5%) | ETA~2h 40m 57s\n"}
+,{"stream_name":"stdout","time":20076.834831878,"data":"[21:36:18] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":20076.834838717,"data":"[21:36:18] [Simulation] START method=submodel (2/2) replicate=8/20 | overall=27/40 (67.5%)\n"}
+,{"stream_name":"stdout","time":21347.46026886,"data":"[21:57:29] [Simulation] DONE  method=submodel replicate=8/20 | elapsed=21m 11s | overall=28/40 (70.0%) | ETA~2h 32m 20s\n"}
+,{"stream_name":"stdout","time":21347.467783995,"data":"[21:57:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":21347.467850001,"data":"[21:57:29] [Simulation] START method=submodel (2/2) replicate=9/20 | overall=28/40 (70.0%)\n"}
+,{"stream_name":"stdout","time":21347.668123066,"data":"[21:57:29] [Simulation] DONE  method=submodel replicate=8/20 | elapsed=21m 11s | overall=28/40 (70.0%) | ETA~2h 32m 20s\n"}
+,{"stream_name":"stdout","time":21347.668164447,"data":"[21:57:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":21347.66817283,"data":"[21:57:29] [Simulation] START method=submodel (2/2) replicate=9/20 | overall=28/40 (70.0%)\n"}
+,{"stream_name":"stdout","time":22441.137648899,"data":"[22:15:42] [Simulation] DONE  method=submodel replicate=9/20 | elapsed=18m 14s | overall=29/40 (72.5%) | ETA~2h 21m 44s\n"}
+,{"stream_name":"stdout","time":22441.14541212,"data":"[22:15:42] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":22441.145459855,"data":"[22:15:42] [Simulation] START method=submodel (2/2) replicate=10/20 | overall=29/40 (72.5%)\n"}
+,{"stream_name":"stdout","time":22441.344195559,"data":"[22:15:42] [Simulation] DONE  method=submodel replicate=9/20 | elapsed=18m 14s | overall=29/40 (72.5%) | ETA~2h 21m 44s\n"}
+,{"stream_name":"stdout","time":22441.344224641,"data":"[22:15:42] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":22441.344230445,"data":"[22:15:42] [Simulation] START method=submodel (2/2) replicate=10/20 | overall=29/40 (72.5%)\n"}
+,{"stream_name":"stdout","time":23619.482559423,"data":"[22:35:21] [Simulation] DONE  method=submodel replicate=10/20 | elapsed=19m 38s | overall=30/40 (75.0%) | ETA~2h 11m 06s\n"}
+,{"stream_name":"stdout","time":23619.490292428,"data":"[22:35:21] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":23619.490329996,"data":"[22:35:21] [Simulation] START method=submodel (2/2) replicate=11/20 | overall=30/40 (75.0%)\n"}
+,{"stream_name":"stdout","time":23619.689061605,"data":"[22:35:21] [Simulation] DONE  method=submodel replicate=10/20 | elapsed=19m 38s | overall=30/40 (75.0%) | ETA~2h 11m 06s\n"}
+,{"stream_name":"stdout","time":23619.689096221,"data":"[22:35:21] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":23619.689105624,"data":"[22:35:21] [Simulation] START method=submodel (2/2) replicate=11/20 | overall=30/40 (75.0%)\n"}
+,{"stream_name":"stdout","time":24674.462436591,"data":"[22:52:56] [Simulation] DONE  method=submodel replicate=11/20 | elapsed=17m 35s | overall=31/40 (77.5%) | ETA~1h 59m 18s\n"}
+,{"stream_name":"stdout","time":24674.470259027,"data":"[22:52:56] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":24674.470297648,"data":"[22:52:56] [Simulation] START method=submodel (2/2) replicate=12/20 | overall=31/40 (77.5%)\n"}
+,{"stream_name":"stdout","time":24674.673001005,"data":"[22:52:56] [Simulation] DONE  method=submodel replicate=11/20 | elapsed=17m 35s | overall=31/40 (77.5%) | ETA~1h 59m 18s\n"}
+,{"stream_name":"stdout","time":24674.673041389,"data":"[22:52:56] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":24674.673055238,"data":"[22:52:56] [Simulation] START method=submodel (2/2) replicate=12/20 | overall=31/40 (77.5%)\n"}
+,{"stream_name":"stdout","time":25732.375083075,"data":"[23:10:34] [Simulation] DONE  method=submodel replicate=12/20 | elapsed=17m 38s | overall=32/40 (80.0%) | ETA~1h 47m 08s\n"}
+,{"stream_name":"stdout","time":25732.382670441,"data":"[23:10:34] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":25732.382698235,"data":"[23:10:34] [Simulation] START method=submodel (2/2) replicate=13/20 | overall=32/40 (80.0%)\n"}
+,{"stream_name":"stdout","time":25732.581555546,"data":"[23:10:34] [Simulation] DONE  method=submodel replicate=12/20 | elapsed=17m 38s | overall=32/40 (80.0%) | ETA~1h 47m 08s\n"}
+,{"stream_name":"stdout","time":25732.581593209,"data":"[23:10:34] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":25732.581599685,"data":"[23:10:34] [Simulation] START method=submodel (2/2) replicate=13/20 | overall=32/40 (80.0%)\n"}
+,{"stream_name":"stdout","time":26868.21274293,"data":"[23:29:29] [Simulation] DONE  method=submodel replicate=13/20 | elapsed=18m 56s | overall=33/40 (82.5%) | ETA~1h 34m 55s\n"}
+,{"stream_name":"stdout","time":26868.221194557,"data":"[23:29:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":26868.221262314,"data":"[23:29:29] [Simulation] START method=submodel (2/2) replicate=14/20 | overall=33/40 (82.5%)\n"}
+,{"stream_name":"stdout","time":26868.420076227,"data":"[23:29:29] [Simulation] DONE  method=submodel replicate=13/20 | elapsed=18m 56s | overall=33/40 (82.5%) | ETA~1h 34m 55s\n"}
+,{"stream_name":"stdout","time":26868.420112622,"data":"[23:29:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":26868.420119374,"data":"[23:29:29] [Simulation] START method=submodel (2/2) replicate=14/20 | overall=33/40 (82.5%)\n"}
+,{"stream_name":"stdout","time":28065.820534896,"data":"[23:49:27] [Simulation] DONE  method=submodel replicate=14/20 | elapsed=19m 58s | overall=34/40 (85.0%) | ETA~1h 22m 29s\n"}
+,{"stream_name":"stdout","time":28065.829081946,"data":"[23:49:27] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":28065.829116526,"data":"[23:49:27] [Simulation] START method=submodel (2/2) replicate=15/20 | overall=34/40 (85.0%)\n"}
+,{"stream_name":"stdout","time":28066.028102302,"data":"[23:49:27] [Simulation] DONE  method=submodel replicate=14/20 | elapsed=19m 58s | overall=34/40 (85.0%) | ETA~1h 22m 29s\n"}
+,{"stream_name":"stdout","time":28066.028134374,"data":"[23:49:27] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":28066.028141406,"data":"[23:49:27] [Simulation] START method=submodel (2/2) replicate=15/20 | overall=34/40 (85.0%)\n"}
+,{"stream_name":"stdout","time":29198.988250623,"data":"[00:08:20] [Simulation] DONE  method=submodel replicate=15/20 | elapsed=18m 53s | overall=35/40 (87.5%) | ETA~1h 09m 28s\n"}
+,{"stream_name":"stdout","time":29198.997143174,"data":"[00:08:20] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":29198.997182616,"data":"[00:08:20] [Simulation] START method=submodel (2/2) replicate=16/20 | overall=35/40 (87.5%)\n"}
+,{"stream_name":"stdout","time":29199.195123467,"data":"[00:08:20] [Simulation] DONE  method=submodel replicate=15/20 | elapsed=18m 53s | overall=35/40 (87.5%) | ETA~1h 09m 28s\n"}
+,{"stream_name":"stdout","time":29199.195154986,"data":"[00:08:20] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":29199.195161699,"data":"[00:08:20] [Simulation] START method=submodel (2/2) replicate=16/20 | overall=35/40 (87.5%)\n"}
+,{"stream_name":"stdout","time":30361.102314421,"data":"[00:27:42] [Simulation] DONE  method=submodel replicate=16/20 | elapsed=19m 22s | overall=36/40 (90.0%) | ETA~56m 11s\n"}
+,{"stream_name":"stdout","time":30361.112668919,"data":"[00:27:42] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":30361.112697554,"data":"[00:27:42] [Simulation] START method=submodel (2/2) replicate=17/20 | overall=36/40 (90.0%)\n"}
+,{"stream_name":"stdout","time":30361.309143687,"data":"[00:27:42] [Simulation] DONE  method=submodel replicate=16/20 | elapsed=19m 22s | overall=36/40 (90.0%) | ETA~56m 11s\n"}
+,{"stream_name":"stdout","time":30361.309197757,"data":"[00:27:42] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":30361.3092055,"data":"[00:27:42] [Simulation] START method=submodel (2/2) replicate=17/20 | overall=36/40 (90.0%)\n"}
+,{"stream_name":"stdout","time":31470.749516321,"data":"[00:46:12] [Simulation] DONE  method=submodel replicate=17/20 | elapsed=18m 30s | overall=37/40 (92.5%) | ETA~42m 30s\n"}
+,{"stream_name":"stdout","time":31470.758077465,"data":"[00:46:12] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":31470.758115184,"data":"[00:46:12] [Simulation] START method=submodel (2/2) replicate=18/20 | overall=37/40 (92.5%)\n"}
+,{"stream_name":"stdout","time":31470.95678908,"data":"[00:46:12] [Simulation] DONE  method=submodel replicate=17/20 | elapsed=18m 30s | overall=37/40 (92.5%) | ETA~42m 30s\n"}
+,{"stream_name":"stdout","time":31470.956819101,"data":"[00:46:12] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":31470.956825686,"data":"[00:46:12] [Simulation] START method=submodel (2/2) replicate=18/20 | overall=37/40 (92.5%)\n"}
+,{"stream_name":"stdout","time":32646.377115777,"data":"[01:05:48] [Simulation] DONE  method=submodel replicate=18/20 | elapsed=19m 36s | overall=38/40 (95.0%) | ETA~28m 37s\n"}
+,{"stream_name":"stdout","time":32646.386695393,"data":"[01:05:48] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":32646.386729315,"data":"[01:05:48] [Simulation] START method=submodel (2/2) replicate=19/20 | overall=38/40 (95.0%)\n"}
+,{"stream_name":"stdout","time":32646.58450137,"data":"[01:05:48] [Simulation] DONE  method=submodel replicate=18/20 | elapsed=19m 36s | overall=38/40 (95.0%) | ETA~28m 37s\n"}
+,{"stream_name":"stdout","time":32646.584555835,"data":"[01:05:48] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":32646.584566796,"data":"[01:05:48] [Simulation] START method=submodel (2/2) replicate=19/20 | overall=38/40 (95.0%)\n"}
+,{"stream_name":"stdout","time":33676.37568111,"data":"[01:22:58] [Simulation] DONE  method=submodel replicate=19/20 | elapsed=17m 10s | overall=39/40 (97.5%) | ETA~14m 23s\n"}
+,{"stream_name":"stdout","time":33676.385198532,"data":"[01:22:58] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":33676.385228774,"data":"[01:22:58] [Simulation] START method=submodel (2/2) replicate=20/20 | overall=39/40 (97.5%)\n"}
+,{"stream_name":"stdout","time":33676.585596895,"data":"[01:22:58] [Simulation] DONE  method=submodel replicate=19/20 | elapsed=17m 10s | overall=39/40 (97.5%) | ETA~14m 23s\n"}
+,{"stream_name":"stdout","time":33676.585639662,"data":"[01:22:58] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":33676.585646031,"data":"[01:22:58] [Simulation] START method=submodel (2/2) replicate=20/20 | overall=39/40 (97.5%)\n"}
+,{"stream_name":"stdout","time":34848.11793205,"data":"[01:42:29] [Simulation] DONE  method=submodel replicate=20/20 | elapsed=19m 32s | overall=40/40 (100.0%) | ETA~0s\n"}
+,{"stream_name":"stdout","time":34848.128826258,"data":"[01:42:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":34848.129533634,"data":"[01:42:29] [Simulation] COMPLETE scenario=B p=20 | 40/40 units\n"}
+,{"stream_name":"stdout","time":34848.143300566,"data":"[01:42:29] [Simulation] ALL REQUESTED CONFIGURATIONS COMPLETE\n"}
+,{"stream_name":"stdout","time":34848.32458914,"data":"[01:42:29] [Simulation] DONE  method=submodel replicate=20/20 | elapsed=19m 32s | overall=40/40 (100.0%) | ETA~0s\n"}
+,{"stream_name":"stdout","time":34848.324618682,"data":"[01:42:29] [Simulation] CHECKPOINT /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":34848.324635923,"data":"[01:42:29] [Simulation] COMPLETE scenario=B p=20 | 40/40 units\n"}
+,{"stream_name":"stdout","time":34848.324640701,"data":"[01:42:29] [Simulation] ALL REQUESTED CONFIGURATIONS COMPLETE\n"}
+,{"stream_name":"stdout","time":34848.932812066,"data":"Wrote /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":34849.135490511,"data":"Wrote /kaggle/working/simulation-mle-B-p20-results/simulation-mle-B-p20.json\n"}
+,{"stream_name":"stdout","time":34849.57241755,"data":"Download: /kaggle/working/simulation-mle-B-p20-results.zip\n"}
+,{"stream_name":"stderr","time":34852.897121335,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":34852.897160585,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":34853.079458492,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":34853.079517236,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":34853.797284501,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":34854.183241084,"data":"[NbConvertApp] Writing 119535 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":34857.156170994,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":34858.151943259,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":34858.151977426,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34858.15234544,"data":"[NbConvertApp] Writing 309324 bytes to __results__.html\n"}
+]

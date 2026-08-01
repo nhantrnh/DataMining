@@ -1,0 +1,62 @@
+[{"stream_name":"stderr","time":9.187149191,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.187268445,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.187278239,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.187283271,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.012180786,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.01222241,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.012228739,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.012233154,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.503076552,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 9.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.706154265,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 9.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.242741673,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":17.707337155,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":17.707390591,"data":"Saved models: /kaggle/working/backwardCGM-PD-3/applications/fMRIdata/output-fMRI/36variables \n"}
+,{"stream_name":"stdout","time":17.707398842,"data":"Output: /kaggle/working/fmri-results\n"}
+,{"stream_name":"stdout","time":17.909875253,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD-3/python-port/experiments/fmri.py --saved-dir /kaggle/working/backwardCGM-PD-3/applications/fMRIdata/output-fMRI/36variables --output-dir /kaggle/working/fmri-results --alpha 0.05 --itmax 1000 --resume --verbose\n"}
+,{"stream_name":"stdout","time":23.587750663,"data":"[01:56:58] [fMRI] CHECKPOINT 0/2 subjects (0.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.587794595,"data":"[01:56:58] [fMRI] START Subject 14 (1/2) | source=saved model\n"}
+,{"stream_name":"stdout","time":23.597059407,"data":"[01:56:58] [fMRI] CHECKPOINT 1/2 subjects (50.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.611838069,"data":"[01:56:58] [fMRI] CHECKPOINT 1/2 subjects (50.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.611869863,"data":"[01:56:58] [fMRI] RENDER Subject 14 | 4 graph components\n"}
+,{"stream_name":"stdout","time":23.790948119,"data":"[01:56:58] [fMRI] CHECKPOINT 0/2 subjects (0.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.791020288,"data":"[01:56:58] [fMRI] START Subject 14 (1/2) | source=saved model\n"}
+,{"stream_name":"stdout","time":23.791028191,"data":"[01:56:58] [fMRI] CHECKPOINT 1/2 subjects (50.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.791034345,"data":"[01:56:58] [fMRI] CHECKPOINT 1/2 subjects (50.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":23.791040471,"data":"[01:56:58] [fMRI] RENDER Subject 14 | 4 graph components\n"}
+,{"stream_name":"stdout","time":25.096439189,"data":"[01:57:00] [fMRI] DONE  Subject 14 | elapsed=2s | overall=1/2 (50.0%)\n"}
+,{"stream_name":"stdout","time":25.096474243,"data":"[01:57:00] [fMRI] START Subject 15 (2/2) | source=saved model\n"}
+,{"stream_name":"stdout","time":25.103996331,"data":"[01:57:00] [fMRI] CHECKPOINT 2/2 subjects (100.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":25.119509535,"data":"[01:57:00] [fMRI] CHECKPOINT 2/2 subjects (100.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":25.119554838,"data":"[01:57:00] [fMRI] RENDER Subject 15 | 4 graph components\n"}
+,{"stream_name":"stdout","time":25.299891319,"data":"[01:57:00] [fMRI] DONE  Subject 14 | elapsed=2s | overall=1/2 (50.0%)\n"}
+,{"stream_name":"stdout","time":25.299962849,"data":"[01:57:00] [fMRI] START Subject 15 (2/2) | source=saved model\n"}
+,{"stream_name":"stdout","time":25.299970633,"data":"[01:57:00] [fMRI] CHECKPOINT 2/2 subjects (100.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":25.299975933,"data":"[01:57:00] [fMRI] CHECKPOINT 2/2 subjects (100.0%) | /kaggle/working/fmri-results/models.json\n"}
+,{"stream_name":"stdout","time":25.299981241,"data":"[01:57:00] [fMRI] RENDER Subject 15 | 4 graph components\n"}
+,{"stream_name":"stdout","time":26.083956247,"data":"[01:57:01] [fMRI] DONE  Subject 15 | elapsed=1s | overall=2/2 (100.0%)\n"}
+,{"stream_name":"stdout","time":26.08699259,"data":"[01:57:01] [fMRI] COMPLETE 2/2 subjects\n"}
+,{"stream_name":"stdout","time":26.087035032,"data":"Wrote figures and models to /kaggle/working/fmri-results\n"}
+,{"stream_name":"stdout","time":26.288043849,"data":"[01:57:01] [fMRI] DONE  Subject 15 | elapsed=1s | overall=2/2 (100.0%)\n"}
+,{"stream_name":"stdout","time":26.288192162,"data":"[01:57:01] [fMRI] COMPLETE 2/2 subjects\n"}
+,{"stream_name":"stdout","time":26.288197655,"data":"Wrote figures and models to /kaggle/working/fmri-results\n"}
+,{"stream_name":"stdout","time":26.719484467,"data":"Subject 14\n"}
+,{"stream_name":"stdout","time":26.781836859,"data":"Subject 15\n"}
+,{"stream_name":"stdout","time":26.982357564,"data":"Download: /kaggle/working/fmri-results.zip\n"}
+,{"stream_name":"stderr","time":30.617054135,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":30.617119915,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":30.831446802,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":30.831516047,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":31.716342132,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":32.178065494,"data":"[NbConvertApp] Writing 3931032 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":35.424233375,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":36.568459744,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":36.568502866,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.569123426,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.569540687,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.570130053,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.570784338,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.571216586,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.571767937,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.572292618,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":36.57291796,"data":"[NbConvertApp] Writing 310056 bytes to __results__.html\n"}
+]

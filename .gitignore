@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+*.egg-info/
+
+# Kết quả của từng lần chạy: sinh lại được bằng các lệnh trong README.
+results/
