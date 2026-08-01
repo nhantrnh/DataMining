@@ -1,0 +1,1460 @@
+{
+  "settings": {
+    "scenario": "B",
+    "p": 8,
+    "method": "tau",
+    "replicates": 10,
+    "alpha": 0.05,
+    "itmax": 500,
+    "parallel": 3
+  },
+  "truth": {
+    "p": 8,
+    "L.as": [
+      1
+    ],
+    "E": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "E.as": [
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "speedup_mle_over_ipms": 2.7932609065942486,
+  "identical_models": 10,
+  "identical_model_rate": 1.0,
+  "runs": [
+    {
+      "replicate": 1,
+      "backend": "grc_ipms",
+      "runtime_seconds": 10.773663038999985,
+      "iterations": 26,
+      "number_models": 306,
+      "pvalue": 0.4877103407658636,
+      "number_edges": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.6666666666666666,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 1,
+      "backend": "mle",
+      "runtime_seconds": 4.899636243000714,
+      "iterations": 26,
+      "number_models": 306,
+      "pvalue": 0.4877104058514996,
+      "number_edges": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.6666666666666666,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 2,
+      "backend": "grc_ipms",
+      "runtime_seconds": 10.750362024999959,
+      "iterations": 24,
+      "number_models": 267,
+      "pvalue": 0.8590763143391591,
+      "number_edges": 13,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7692307692307693,
+        "eTPR": 1.0,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 2,
+      "backend": "mle",
+      "runtime_seconds": 3.3818723939994015,
+      "iterations": 24,
+      "number_models": 267,
+      "pvalue": 0.8590765686262388,
+      "number_edges": 13,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7692307692307693,
+        "eTPR": 1.0,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 3,
+      "backend": "grc_ipms",
+      "runtime_seconds": 11.227945218000059,
+      "iterations": 24,
+      "number_models": 289,
+      "pvalue": 0.13762115650494502,
+      "number_edges": 11,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7272727272727273,
+        "eTPR": 0.8,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.5,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 0.8333333333333334
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 3,
+      "backend": "mle",
+      "runtime_seconds": 4.498814784000388,
+      "iterations": 24,
+      "number_models": 289,
+      "pvalue": 0.1376211691443297,
+      "number_edges": 11,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7272727272727273,
+        "eTPR": 0.8,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.5,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 0.8333333333333334
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 4,
+      "backend": "grc_ipms",
+      "runtime_seconds": 15.189691818999563,
+      "iterations": 25,
+      "number_models": 266,
+      "pvalue": 0.35166743829556946,
+      "number_edges": 12,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.8888888888888888,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 4,
+      "backend": "mle",
+      "runtime_seconds": 3.9355250340004204,
+      "iterations": 25,
+      "number_models": 266,
+      "pvalue": 0.3516679588143735,
+      "number_edges": 12,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.8888888888888888,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 5,
+      "backend": "grc_ipms",
+      "runtime_seconds": 10.58421754400024,
+      "iterations": 25,
+      "number_models": 296,
+      "pvalue": 0.2000570073899531,
+      "number_edges": 12,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.8888888888888888,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 5,
+      "backend": "mle",
+      "runtime_seconds": 4.130548419999286,
+      "iterations": 25,
+      "number_models": 296,
+      "pvalue": 0.20005709080830372,
+      "number_edges": 12,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.8888888888888888,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 6,
+      "backend": "grc_ipms",
+      "runtime_seconds": 12.884957852000298,
+      "iterations": 26,
+      "number_models": 318,
+      "pvalue": 0.18076797115665144,
+      "number_edges": 10,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.9,
+        "eTPR": 0.9,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 6,
+      "backend": "mle",
+      "runtime_seconds": 5.028314178999608,
+      "iterations": 26,
+      "number_models": 318,
+      "pvalue": 0.1807680696664188,
+      "number_edges": 10,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.9,
+        "eTPR": 0.9,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 7,
+      "backend": "grc_ipms",
+      "runtime_seconds": 7.736385763999351,
+      "iterations": 22,
+      "number_models": 222,
+      "pvalue": 0.6335640876412245,
+      "number_edges": 13,
+      "model": {
+        "p": 8,
+        "L.as": [
+          3
+        ],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7692307692307693,
+        "eTPR": 1.0,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 0.8333333333333334
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 7,
+      "backend": "mle",
+      "runtime_seconds": 2.889272412000537,
+      "iterations": 22,
+      "number_models": 222,
+      "pvalue": 0.6335643334380467,
+      "number_edges": 13,
+      "model": {
+        "p": 8,
+        "L.as": [
+          3
+        ],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7692307692307693,
+        "eTPR": 1.0,
+        "eTNR": 0.8333333333333334,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 0.8333333333333334
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 8,
+      "backend": "grc_ipms",
+      "runtime_seconds": 10.681704655999965,
+      "iterations": 26,
+      "number_models": 292,
+      "pvalue": 0.23990559380403184,
+      "number_edges": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.9,
+        "eTNR": 1.0,
+        "sPPV": 0.75,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 8,
+      "backend": "mle",
+      "runtime_seconds": 4.45303971300018,
+      "iterations": 26,
+      "number_models": 292,
+      "pvalue": 0.23990570628846117,
+      "number_edges": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.9,
+        "eTNR": 1.0,
+        "sPPV": 0.75,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 9,
+      "backend": "grc_ipms",
+      "runtime_seconds": 16.99086751699997,
+      "iterations": 26,
+      "number_models": 290,
+      "pvalue": 0.1669849329516034,
+      "number_edges": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.875,
+        "eTPR": 0.7,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6666666666666666,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 9,
+      "backend": "mle",
+      "runtime_seconds": 4.922008667999762,
+      "iterations": 26,
+      "number_models": 290,
+      "pvalue": 0.1669850546426794,
+      "number_edges": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.875,
+        "eTPR": 0.7,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6666666666666666,
+        "sTPR": 0.6666666666666666,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 10,
+      "backend": "grc_ipms",
+      "runtime_seconds": 14.739315339000314,
+      "iterations": 26,
+      "number_models": 321,
+      "pvalue": 0.06140178017376032,
+      "number_edges": 10,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.9,
+        "eTPR": 0.9,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    },
+    {
+      "replicate": 10,
+      "backend": "mle",
+      "runtime_seconds": 5.379677946999436,
+      "iterations": 26,
+      "number_models": 321,
+      "pvalue": 0.061401828155017706,
+      "number_edges": 10,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.9,
+        "eTPR": 0.9,
+        "eTNR": 0.9444444444444444,
+        "sPPV": 0.6,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      },
+      "same_model_as_other_backend": true
+    }
+  ],
+  "summary": [
+    {
+      "scenario": "B",
+      "p": 8,
+      "method": "tau",
+      "backend": "grc_ipms",
+      "replicates": 10,
+      "mean_runtime": 12.15591107729997,
+      "sd_runtime": 2.7630322249604973,
+      "mean_iterations": 25.0,
+      "mean_number_models": 286.7,
+      "mean_number_edges": 10.6,
+      "ePPV": 0.8607400932400932,
+      "eTPR": 0.9,
+      "eTNR": 0.9111111111111112,
+      "sPPV": 0.5983333333333334,
+      "sTPR": 0.9,
+      "sTNR": 0.9666666666666668
+    },
+    {
+      "scenario": "B",
+      "p": 8,
+      "method": "tau",
+      "backend": "mle",
+      "replicates": 10,
+      "mean_runtime": 4.3518709793999735,
+      "sd_runtime": 0.7798371178833237,
+      "mean_iterations": 25.0,
+      "mean_number_models": 286.7,
+      "mean_number_edges": 10.6,
+      "ePPV": 0.8607400932400932,
+      "eTPR": 0.9,
+      "eTNR": 0.9111111111111112,
+      "sPPV": 0.5983333333333334,
+      "sTPR": 0.9,
+      "sTNR": 0.9666666666666668
+    }
+  ]
+}

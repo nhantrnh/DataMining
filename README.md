@@ -19,7 +19,7 @@ trình bày lại phương pháp và kiểm chứng kết quả bằng một b�
 
 Mã R gốc của nhóm tác giả nằm ở
 <https://github.com/NgocDung-NGUYEN/backwardCGM-PD>. Kho này chứa **bản chuyển
-đổi sang Python** của mã đó, cộng thêm hai thực nghiệm mở rộng do nhóm viết.
+đổi sang Python** của mã đó, cộng thêm ba thực nghiệm mở rộng do nhóm viết.
 
 ```
 src/backward_cgm_pd/     thư viện lõi (bản port từ R)
@@ -39,6 +39,7 @@ experiments/
   paper_table.py           số liệu đối chiếu trích từ bài báo
   baseline_simulation.py   [mở rộng] hai baseline pdglasso trên dữ liệu mô phỏng
   stability.py             [mở rộng] đánh giá độ ổn định bằng bootstrap
+  ablation_backend.py      [mở rộng] đối chứng hai cách khớp mô hình RCON
 
 simulation/simulated-data/            tám tệp .RData dữ liệu mô phỏng
 applications/
@@ -46,7 +47,7 @@ applications/
                                         chất lượng không khí
   fMRIdata/output-fMRI/36variables/     hai mô hình đã chọn sẵn của
                                         Subject 14 và Subject 15
-notebooks/                            mười một notebook Kaggle đã chạy, kèm log
+notebooks/                            mười hai notebook Kaggle đã chạy, kèm log
 ```
 
 Toàn bộ dữ liệu cần thiết đều nằm sẵn trong kho, không phải tải thêm. Cần nói rõ
@@ -61,7 +62,7 @@ Kho không chứa sẵn kết quả thực nghiệm: mọi con số trong báo c
 ghi vào thư mục `results/`. Riêng log đầy đủ của các lần chạy đã dùng để viết
 báo cáo được lưu kèm trong `notebooks/`.
 
-Hai tệp trong `experiments/` có nhãn `[mở rộng]` là phần **nhóm viết thêm**,
+Ba tệp trong `experiments/` có nhãn `[mở rộng]` là phần **nhóm viết thêm**,
 không có trong mã nguồn gốc; lý do và kết quả được trình bày ở Chương 4 của
 báo cáo. Toàn bộ phần còn lại là bản chuyển đổi trung thực từ R sang Python,
 giữ nguyên quy ước đánh chỉ số từ 1 để kết quả so sánh trực tiếp được với các
@@ -115,21 +116,24 @@ lại mô hình từ đầu; giới hạn này được nêu rõ trong báo cáo
 - chạy greedy search và hai baseline pdglasso (trên covariance và trên
 correlation) với `p = 12`, `n = 373`.
 
-### IV. Hai thực nghiệm mở rộng
+### IV. Ba thực nghiệm mở rộng
 
-Hai notebook dưới đây là phần **nhóm bổ sung**, không có trong bài báo gốc. Cả
-hai dùng chung dataset với chín notebook trên; mã của hai thực nghiệm được nhúng
+Ba notebook dưới đây là phần **nhóm bổ sung**, không có trong bài báo gốc. Cả
+ba dùng chung dataset với chín notebook trên; mã của hai thực nghiệm được nhúng
 thẳng trong notebook nên chạy được ngay mà không cần thêm gì.
 
 | Thực nghiệm | Notebook |
 | --- | --- |
 | Baseline pdglasso trên dữ liệu mô phỏng | [kaggle-baseline-simulation](https://www.kaggle.com/code/nhantrnh/kaggle-baseline-simulation) |
 | Độ ổn định bằng bootstrap | [kaggle-stability](https://www.kaggle.com/code/nhantrnh/kaggle-stability) |
+| Đối chứng hai cách khớp mô hình RCON | [kaggle-ablation-backend](https://www.kaggle.com/code/nhantrnh/kaggle-ablation-backend) |
 
 Notebook thứ nhất vá một khoảng trống trong thiết kế của bài báo: phần mô phỏng
 gốc chỉ so `tau` với `submodel`, cả hai đều thuộc phương pháp đề xuất. Notebook
 thứ hai đo độ nhạy của mô hình được chọn với chính mẫu đã sinh ra nó — khía cạnh
-bài báo không khảo sát.
+bài báo không khảo sát. Notebook thứ ba chạy cùng một tìm kiếm hai lần trên cùng
+phần cứng, chỉ đổi cách khớp mô hình, để tách ảnh hưởng của thủ tục khớp khỏi
+ảnh hưởng của số chiều.
 
 ### Cấu trúc mỗi thư mục notebook
 
@@ -272,6 +276,22 @@ Kết quả gồm `instability` (chỉ số bất ổn định trung bình trên
 bằng 0 khi mọi mẫu bootstrap cho cùng một tập cạnh, tối đa 0,5) và
 `exact_recovery_rate` (tỉ lệ mẫu bootstrap trả về đúng mô hình điểm, kể cả các
 lớp màu).
+
+### V. Đối chứng hai cách khớp mô hình RCON (mở rộng)
+
+```bash
+python experiments/ablation_backend.py \
+    --scenario A --p 8 --replicates 10 --parallel 3 \
+    --output results/ablation-A-p8.json
+```
+
+Chạy cùng một tìm kiếm hai lần trên cùng dữ liệu và cùng phần cứng, chỉ đổi cách
+khớp mô hình ứng viên: thủ tục IPMS tái tạo mã R gốc, và cực đại hoá hợp lý trực
+tiếp. Kết quả cho biết hai cách nhanh chậm khác nhau bao nhiêu, và quan trọng hơn
+là chúng có chọn ra cùng một mô hình hay không.
+
+Lưu ý thủ tục IPMS chậm hơn nhiều, nên `p = 16` trở lên cần vài giờ cho mỗi cấu
+hình.
 
 ## Ghi chú về tái lập kết quả
 

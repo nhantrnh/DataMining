@@ -1,0 +1,79 @@
+[{"stream_name":"stderr","time":11.541270406,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.541361115,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.541366035,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.541368775,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.376393931,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.376452531,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.37645702,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.37646082,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.038267828,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.240809373,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.965661553,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":22.253511505,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":22.253569235,"data":"Output: /kaggle/working/ablation-results\n"}
+,{"stream_name":"stdout","time":22.270800032,"data":"Đã ghi /kaggle/working/backwardCGM-PD/python-port/experiments/ablation_backend.py\n"}
+,{"stream_name":"stdout","time":22.288711399,"data":"{'replicates': 10, 'parallel': 3, 'method': 'tau', 'p': ['8', '12']}\n"}
+,{"stream_name":"stdout","time":22.304543266,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/ablation_backend.py --scenario A --p 8 --method tau --replicates 10 --parallel 3 --output /kaggle/working/ablation-results/ablation-A-p8.json\n"}
+,{"stream_name":"stdout","time":161.882289592,"data":"Wrote /kaggle/working/ablation-results/ablation-A-p8.json\n"}
+,{"stream_name":"stdout","time":161.899518519,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":161.899580049,"data":"       A  8    tau grc_ipms          10      8.822222    1.103011             26.0               307.0                7.4 0.744234   1.0 0.895652 0.433333   1.0 0.855556\n"}
+,{"stream_name":"stdout","time":161.899584939,"data":"       A  8    tau      mle          10      4.804804    0.877657             26.0               307.0                7.4 0.744234   1.0 0.895652 0.433333   1.0 0.855556\n"}
+,{"stream_name":"stdout","time":161.899588459,"data":"\n"}
+,{"stream_name":"stdout","time":161.899591649,"data":"speedup (ipms/mle) = 1.84x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":162.088112699,"data":"Wrote /kaggle/working/ablation-results/ablation-A-p8.json\n"}
+,{"stream_name":"stdout","time":162.088165629,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":162.088173669,"data":"       A  8    tau grc_ipms          10      8.822222    1.103011             26.0               307.0                7.4 0.744234   1.0 0.895652 0.433333   1.0 0.855556\n"}
+,{"stream_name":"stdout","time":162.088190819,"data":"       A  8    tau      mle          10      4.804804    0.877657             26.0               307.0                7.4 0.744234   1.0 0.895652 0.433333   1.0 0.855556\n"}
+,{"stream_name":"stdout","time":162.088194989,"data":"\n"}
+,{"stream_name":"stdout","time":162.088198269,"data":"speedup (ipms/mle) = 1.84x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":162.501269353,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/ablation_backend.py --scenario A --p 12 --method tau --replicates 10 --parallel 3 --output /kaggle/working/ablation-results/ablation-A-p12.json\n"}
+,{"stream_name":"stdout","time":2965.106455722,"data":"Wrote /kaggle/working/ablation-results/ablation-A-p12.json\n"}
+,{"stream_name":"stdout","time":2965.110456821,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR  sTNR\n"}
+,{"stream_name":"stdout","time":2965.110500981,"data":"       A 12    tau grc_ipms          10    183.798234   25.933528             59.6              1374.4               16.3 0.743911 0.975 0.914815 0.189286   1.0   0.9\n"}
+,{"stream_name":"stdout","time":2965.110505731,"data":"       A 12    tau      mle          10     96.335843   17.724611             59.6              1374.4               16.3 0.743911 0.975 0.914815 0.189286   1.0   0.9\n"}
+,{"stream_name":"stdout","time":2965.110514551,"data":"\n"}
+,{"stream_name":"stdout","time":2965.110517771,"data":"speedup (ipms/mle) = 1.91x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":2965.311710715,"data":"Wrote /kaggle/working/ablation-results/ablation-A-p12.json\n"}
+,{"stream_name":"stdout","time":2965.311742285,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR  sTNR\n"}
+,{"stream_name":"stdout","time":2965.311748875,"data":"       A 12    tau grc_ipms          10    183.798234   25.933528             59.6              1374.4               16.3 0.743911 0.975 0.914815 0.189286   1.0   0.9\n"}
+,{"stream_name":"stdout","time":2965.311753695,"data":"       A 12    tau      mle          10     96.335843   17.724611             59.6              1374.4               16.3 0.743911 0.975 0.914815 0.189286   1.0   0.9\n"}
+,{"stream_name":"stdout","time":2965.311758375,"data":"\n"}
+,{"stream_name":"stdout","time":2965.311762335,"data":"speedup (ipms/mle) = 1.91x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":2965.917738157,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/ablation_backend.py --scenario B --p 8 --method tau --replicates 10 --parallel 3 --output /kaggle/working/ablation-results/ablation-B-p8.json\n"}
+,{"stream_name":"stdout","time":3132.279497693,"data":"Wrote /kaggle/working/ablation-results/ablation-B-p8.json\n"}
+,{"stream_name":"stdout","time":3132.283408492,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges    ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":3132.283480412,"data":"       B  8    tau grc_ipms          10     12.155911    2.763032             25.0               286.7               10.6 0.86074   0.9 0.911111 0.598333   0.9 0.966667\n"}
+,{"stream_name":"stdout","time":3132.283487942,"data":"       B  8    tau      mle          10      4.351871    0.779837             25.0               286.7               10.6 0.86074   0.9 0.911111 0.598333   0.9 0.966667\n"}
+,{"stream_name":"stdout","time":3132.283493722,"data":"\n"}
+,{"stream_name":"stdout","time":3132.283498022,"data":"speedup (ipms/mle) = 2.79x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":3132.484571416,"data":"Wrote /kaggle/working/ablation-results/ablation-B-p8.json\n"}
+,{"stream_name":"stdout","time":3132.484604086,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges    ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":3132.484608686,"data":"       B  8    tau grc_ipms          10     12.155911    2.763032             25.0               286.7               10.6 0.86074   0.9 0.911111 0.598333   0.9 0.966667\n"}
+,{"stream_name":"stdout","time":3132.484612196,"data":"       B  8    tau      mle          10      4.351871    0.779837             25.0               286.7               10.6 0.86074   0.9 0.911111 0.598333   0.9 0.966667\n"}
+,{"stream_name":"stdout","time":3132.484615616,"data":"\n"}
+,{"stream_name":"stdout","time":3132.484619556,"data":"speedup (ipms/mle) = 2.79x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":3133.011648191,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/ablation_backend.py --scenario B --p 12 --method tau --replicates 10 --parallel 3 --output /kaggle/working/ablation-results/ablation-B-p12.json\n"}
+,{"stream_name":"stdout","time":6722.894774832,"data":"Wrote /kaggle/working/ablation-results/ablation-B-p12.json\n"}
+,{"stream_name":"stdout","time":6722.898484901,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":6722.898525121,"data":"       B 12    tau grc_ipms          10    275.126032   44.158121             55.5              1283.0               24.1 0.789685 0.808696 0.872093 0.544481   0.8 0.847059\n"}
+,{"stream_name":"stdout","time":6722.898539601,"data":"       B 12    tau      mle          10     83.731615   17.178045             55.5              1283.0               24.1 0.789685 0.808696 0.872093 0.544481   0.8 0.847059\n"}
+,{"stream_name":"stdout","time":6722.898544761,"data":"\n"}
+,{"stream_name":"stdout","time":6722.898548961,"data":"speedup (ipms/mle) = 3.29x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":6723.099526881,"data":"Wrote /kaggle/working/ablation-results/ablation-B-p12.json\n"}
+,{"stream_name":"stdout","time":6723.099557672,"data":"scenario  p method  backend  replicates  mean_runtime  sd_runtime  mean_iterations  mean_number_models  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":6723.099564492,"data":"       B 12    tau grc_ipms          10    275.126032   44.158121             55.5              1283.0               24.1 0.789685 0.808696 0.872093 0.544481   0.8 0.847059\n"}
+,{"stream_name":"stdout","time":6723.099569912,"data":"       B 12    tau      mle          10     83.731615   17.178045             55.5              1283.0               24.1 0.789685 0.808696 0.872093 0.544481   0.8 0.847059\n"}
+,{"stream_name":"stdout","time":6723.099574601,"data":"\n"}
+,{"stream_name":"stdout","time":6723.099578752,"data":"speedup (ipms/mle) = 3.29x  |  mô hình trùng nhau: 10/10\n"}
+,{"stream_name":"stdout","time":6723.649751973,"data":"\n"}
+,{"stream_name":"stdout","time":6723.649796913,"data":"Tổng thời gian: 6701.3s\n"}
+,{"stream_name":"stdout","time":6723.724114929,"data":"Download: /kaggle/working/ablation-results.zip\n"}
+,{"stream_name":"stderr","time":6726.67473789,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6726.67478097,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6726.864287502,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6726.864321713,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6727.510243255,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6727.774837073,"data":"[NbConvertApp] Writing 28373 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6730.225473912,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6731.033218504,"data":"[NbConvertApp] Writing 327482 bytes to __results__.html\n"}
+]
