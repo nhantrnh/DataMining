@@ -1,0 +1,114 @@
+[{"stream_name":"stderr","time":10.00189189,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.001990445,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.001996723,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.001999828,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.845012485,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.845058709,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.845063327,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.845083294,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.563546178,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.767285773,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 6.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.367291222,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":20.233122951,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":20.233166346,"data":"Output: /kaggle/working/baseline-simulation-results\n"}
+,{"stream_name":"stdout","time":20.252872362,"data":"Đã ghi /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py\n"}
+,{"stream_name":"stdout","time":20.276956483,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario A --p 8 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-A-p8.json\n"}
+,{"stream_name":"stdout","time":55.144938571,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p8.json\n"}
+,{"stream_name":"stdout","time":55.144980635,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p8-summary.csv\n"}
+,{"stream_name":"stdout","time":55.163238411,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":55.163418466,"data":"       A  8 pdglasso-cov          20      0.797034    0.084626                5.5 0.896825  0.96 0.969565      NaN   0.9 0.972222\n"}
+,{"stream_name":"stdout","time":55.163424041,"data":"       A  8 pdglasso-cor          20      0.765970    0.078170                5.3 0.932540  0.96 0.978261 0.420833   0.9 0.983333\n"}
+,{"stream_name":"stdout","time":55.35164011,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p8.json\n"}
+,{"stream_name":"stdout","time":55.351674509,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p8-summary.csv\n"}
+,{"stream_name":"stdout","time":55.351681337,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV  eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":55.3517634,"data":"       A  8 pdglasso-cov          20      0.797034    0.084626                5.5 0.896825  0.96 0.969565      NaN   0.9 0.972222\n"}
+,{"stream_name":"stdout","time":55.351777083,"data":"       A  8 pdglasso-cor          20      0.765970    0.078170                5.3 0.932540  0.96 0.978261 0.420833   0.9 0.983333\n"}
+,{"stream_name":"stdout","time":55.527165074,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario A --p 12 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-A-p12.json\n"}
+,{"stream_name":"stdout","time":99.957569454,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p12.json\n"}
+,{"stream_name":"stdout","time":99.957616675,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p12-summary.csv\n"}
+,{"stream_name":"stdout","time":99.96312677,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":99.963169183,"data":"       A 12 pdglasso-cov          20      1.098365    0.062190              13.25 0.882938 0.962500 0.968519 0.182202  0.95 0.973913\n"}
+,{"stream_name":"stdout","time":99.96317462,"data":"       A 12 pdglasso-cor          20      1.035315    0.075673              13.10 0.911945 0.979167 0.975000 0.205556  0.85 0.971739\n"}
+,{"stream_name":"stdout","time":100.165135324,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p12.json\n"}
+,{"stream_name":"stdout","time":100.165183715,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p12-summary.csv\n"}
+,{"stream_name":"stdout","time":100.165192004,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":100.165198915,"data":"       A 12 pdglasso-cov          20      1.098365    0.062190              13.25 0.882938 0.962500 0.968519 0.182202  0.95 0.973913\n"}
+,{"stream_name":"stdout","time":100.165205297,"data":"       A 12 pdglasso-cor          20      1.035315    0.075673              13.10 0.911945 0.979167 0.975000 0.205556  0.85 0.971739\n"}
+,{"stream_name":"stdout","time":100.267251159,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario A --p 16 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-A-p16.json\n"}
+,{"stream_name":"stdout","time":159.665355259,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p16.json\n"}
+,{"stream_name":"stdout","time":159.665414756,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p16-summary.csv\n"}
+,{"stream_name":"stdout","time":159.670548139,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":159.670611666,"data":"       A 16 pdglasso-cov          20      1.499590    0.166532               24.7 0.830019 0.922727 0.955102 0.172379 0.875 0.970455\n"}
+,{"stream_name":"stdout","time":159.670619896,"data":"       A 16 pdglasso-cor          20      1.375101    0.137652               23.2 0.891688 0.936364 0.973469 0.196870 0.900 0.989773\n"}
+,{"stream_name":"stdout","time":159.871469445,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p16.json\n"}
+,{"stream_name":"stdout","time":159.871501288,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p16-summary.csv\n"}
+,{"stream_name":"stdout","time":159.87150853,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":159.8715156,"data":"       A 16 pdglasso-cov          20      1.499590    0.166532               24.7 0.830019 0.922727 0.955102 0.172379 0.875 0.970455\n"}
+,{"stream_name":"stdout","time":159.871522187,"data":"       A 16 pdglasso-cor          20      1.375101    0.137652               23.2 0.891688 0.936364 0.973469 0.196870 0.900 0.989773\n"}
+,{"stream_name":"stdout","time":159.978392546,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario A --p 20 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-A-p20.json\n"}
+,{"stream_name":"stdout","time":242.574215249,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p20.json\n"}
+,{"stream_name":"stdout","time":242.574259123,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p20-summary.csv\n"}
+,{"stream_name":"stdout","time":242.579813776,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":242.579857204,"data":"       A 20 pdglasso-cov          20      2.136929    0.181505              42.55 0.742497 0.889706 0.921154 0.163065  0.95 0.929861\n"}
+,{"stream_name":"stdout","time":242.579864653,"data":"       A 20 pdglasso-cor          20      1.898335    0.108963              35.40 0.840321 0.864706 0.961538 0.157745  0.75 0.964583\n"}
+,{"stream_name":"stdout","time":242.781811545,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p20.json\n"}
+,{"stream_name":"stdout","time":242.781849683,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-A-p20-summary.csv\n"}
+,{"stream_name":"stdout","time":242.781856675,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":242.781864916,"data":"       A 20 pdglasso-cov          20      2.136929    0.181505              42.55 0.742497 0.889706 0.921154 0.163065  0.95 0.929861\n"}
+,{"stream_name":"stdout","time":242.781871415,"data":"       A 20 pdglasso-cor          20      1.898335    0.108963              35.40 0.840321 0.864706 0.961538 0.157745  0.75 0.964583\n"}
+,{"stream_name":"stdout","time":242.887127235,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario B --p 8 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-B-p8.json\n"}
+,{"stream_name":"stdout","time":281.771077707,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p8.json\n"}
+,{"stream_name":"stdout","time":281.771131893,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p8-summary.csv\n"}
+,{"stream_name":"stdout","time":281.777156873,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV  eTPR     eTNR     sPPV     sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":281.777198253,"data":"       B  8 pdglasso-cov          20      0.960221    0.098408              11.20 0.810297  0.87 0.861111 0.628690 0.866667 0.950000\n"}
+,{"stream_name":"stdout","time":281.777205147,"data":"       B  8 pdglasso-cor          20      0.899307    0.068841              10.35 0.856423  0.87 0.908333 0.729167 0.900000 0.983333\n"}
+,{"stream_name":"stdout","time":281.977754254,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p8.json\n"}
+,{"stream_name":"stdout","time":281.977800433,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p8-summary.csv\n"}
+,{"stream_name":"stdout","time":281.977806848,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV  eTPR     eTNR     sPPV     sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":281.97781242,"data":"       B  8 pdglasso-cov          20      0.960221    0.098408              11.20 0.810297  0.87 0.861111 0.628690 0.866667 0.950000\n"}
+,{"stream_name":"stdout","time":281.977818172,"data":"       B  8 pdglasso-cor          20      0.899307    0.068841              10.35 0.856423  0.87 0.908333 0.729167 0.900000 0.983333\n"}
+,{"stream_name":"stdout","time":282.106775616,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario B --p 12 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-B-p12.json\n"}
+,{"stream_name":"stdout","time":330.965444889,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p12.json\n"}
+,{"stream_name":"stdout","time":330.965484463,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p12-summary.csv\n"}
+,{"stream_name":"stdout","time":330.971165145,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":330.971211279,"data":"       B 12 pdglasso-cov          20      1.266649    0.130064              23.90 0.842329 0.845652 0.896512 0.532292 0.875 0.926471\n"}
+,{"stream_name":"stdout","time":330.971218467,"data":"       B 12 pdglasso-cor          20      1.085924    0.079685              20.75 0.924048 0.828261 0.960465 0.576508 0.800 0.973529\n"}
+,{"stream_name":"stdout","time":331.171268182,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p12.json\n"}
+,{"stream_name":"stdout","time":331.171346453,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p12-summary.csv\n"}
+,{"stream_name":"stdout","time":331.171353551,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR     sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":331.171359717,"data":"       B 12 pdglasso-cov          20      1.266649    0.130064              23.90 0.842329 0.845652 0.896512 0.532292 0.875 0.926471\n"}
+,{"stream_name":"stdout","time":331.171365783,"data":"       B 12 pdglasso-cor          20      1.085924    0.079685              20.75 0.924048 0.828261 0.960465 0.576508 0.800 0.973529\n"}
+,{"stream_name":"stdout","time":331.283115166,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario B --p 16 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-B-p16.json\n"}
+,{"stream_name":"stdout","time":386.452241932,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p16.json\n"}
+,{"stream_name":"stdout","time":386.45233952,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p16-summary.csv\n"}
+,{"stream_name":"stdout","time":386.458424861,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR  sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":386.458472331,"data":"       B 16 pdglasso-cov          20      1.360871    0.082291              38.55 0.726286 0.657143 0.859615   NaN 0.635 0.885938\n"}
+,{"stream_name":"stdout","time":386.458482428,"data":"       B 16 pdglasso-cor          20      1.306182    0.055714              33.35 0.787510 0.615476 0.903846   NaN 0.465 0.909375\n"}
+,{"stream_name":"stdout","time":386.65899841,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p16.json\n"}
+,{"stream_name":"stdout","time":386.659045413,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p16-summary.csv\n"}
+,{"stream_name":"stdout","time":386.659053895,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR  sPPV  sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":386.659064808,"data":"       B 16 pdglasso-cov          20      1.360871    0.082291              38.55 0.726286 0.657143 0.859615   NaN 0.635 0.885938\n"}
+,{"stream_name":"stdout","time":386.659071803,"data":"       B 16 pdglasso-cor          20      1.306182    0.055714              33.35 0.787510 0.615476 0.903846   NaN 0.465 0.909375\n"}
+,{"stream_name":"stdout","time":386.762543098,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/baseline_simulation.py --scenario B --p 20 --replicates 20 --output /kaggle/working/baseline-simulation-results/baseline-B-p20.json\n"}
+,{"stream_name":"stdout","time":465.881229652,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p20.json\n"}
+,{"stream_name":"stdout","time":465.88132246,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p20-summary.csv\n"}
+,{"stream_name":"stdout","time":465.886619691,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR  sPPV     sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":465.886665266,"data":"       B 20 pdglasso-cov          20      1.985292    0.157032              62.05 0.674797 0.610606 0.824597   NaN 0.590625 0.824074\n"}
+,{"stream_name":"stdout","time":465.886672331,"data":"       B 20 pdglasso-cor          20      1.877200    0.110356              45.50 0.769844 0.527273 0.913710   NaN 0.356250 0.893519\n"}
+,{"stream_name":"stdout","time":466.087208034,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p20.json\n"}
+,{"stream_name":"stdout","time":466.087239799,"data":"Wrote /kaggle/working/baseline-simulation-results/baseline-B-p20-summary.csv\n"}
+,{"stream_name":"stdout","time":466.087246464,"data":"scenario  p       method  replicates  mean_runtime  sd_runtime  mean_number_edges     ePPV     eTPR     eTNR  sPPV     sTPR     sTNR\n"}
+,{"stream_name":"stdout","time":466.087252687,"data":"       B 20 pdglasso-cov          20      1.985292    0.157032              62.05 0.674797 0.610606 0.824597   NaN 0.590625 0.824074\n"}
+,{"stream_name":"stdout","time":466.087259007,"data":"       B 20 pdglasso-cor          20      1.877200    0.110356              45.50 0.769844 0.527273 0.913710   NaN 0.356250 0.893519\n"}
+,{"stream_name":"stdout","time":466.190874219,"data":"\n"}
+,{"stream_name":"stdout","time":466.190917785,"data":"Tổng thời gian: 445.9s\n"}
+,{"stream_name":"stdout","time":466.287891407,"data":"Download: /kaggle/working/baseline-simulation-results.zip\n"}
+,{"stream_name":"stderr","time":469.878897569,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":469.878940035,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":470.090144859,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":470.090186616,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":470.860104843,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":471.302093091,"data":"[NbConvertApp] Writing 37586 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":474.556568676,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":475.656144698,"data":"[NbConvertApp] Writing 325808 bytes to __results__.html\n"}
+]

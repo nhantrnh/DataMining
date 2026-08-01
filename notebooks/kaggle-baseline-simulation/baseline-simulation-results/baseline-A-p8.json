@@ -1,0 +1,1982 @@
+{
+  "settings": {
+    "scenario": "A",
+    "p": 8,
+    "replicates": 20,
+    "points": 10,
+    "gamma_ebic": 0.0,
+    "source": "saved"
+  },
+  "truth": {
+    "p": 8,
+    "L.as": [
+      1,
+      3,
+      4
+    ],
+    "E": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "E.as": [
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "runs": [
+    {
+      "replicate": 1,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.698551091000013,
+      "lambda1": 0.43371546115083603,
+      "lambda2": 0.062059480270382966,
+      "number_edges": 5,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 1,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.683273105000012,
+      "lambda1": 0.44004267343436493,
+      "lambda2": 0.06013821697857369,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 2,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.8547992769999837,
+      "lambda1": 0.1664725141259871,
+      "lambda2": 0.1513384112929567,
+      "number_edges": 6,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 2,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8018999600000143,
+      "lambda1": 0.22245561071368516,
+      "lambda2": 0.11815277369003788,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 3,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.6502960720000033,
+      "lambda1": 0.48116954153509994,
+      "lambda2": 0.2196138428864107,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 3,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6947779559999958,
+      "lambda1": 0.42149090004097634,
+      "lambda2": 0.04113046567905471,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 4,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.9189302319999797,
+      "lambda1": 0.21812506774473361,
+      "lambda2": 0.30892730627970283,
+      "number_edges": 7,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.7142857142857143,
+        "eTPR": 1.0,
+        "eTNR": 0.9130434782608695,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 4,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8873491809999905,
+      "lambda1": 0.2408839370962202,
+      "lambda2": 0.19500017690859,
+      "number_edges": 6,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 5,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.804027938000047,
+      "lambda1": 0.19208860104291212,
+      "lambda2": 0.11901257710476773,
+      "number_edges": 6,
+      "number_parameters": 10,
+      "model": {
+        "p": 8,
+        "L.as": [
+          1,
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 0.8888888888888888
+      }
+    },
+    {
+      "replicate": 5,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7255613529999891,
+      "lambda1": 0.3793053022681253,
+      "lambda2": 0.28088007373424234,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 6,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.904357363000031,
+      "lambda1": 0.20295017469729876,
+      "lambda2": 0.22741304268385729,
+      "number_edges": 9,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.5555555555555556,
+        "eTPR": 1.0,
+        "eTNR": 0.8260869565217391,
+        "sPPV": 0.25,
+        "sTPR": 1.0,
+        "sTNR": 0.7777777777777778
+      }
+    },
+    {
+      "replicate": 6,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8571994330000052,
+      "lambda1": 0.24028945007680863,
+      "lambda2": 0.2485856397676981,
+      "number_edges": 7,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.7142857142857143,
+        "eTPR": 1.0,
+        "eTNR": 0.9130434782608695,
+        "sPPV": 0.3333333333333333,
+        "sTPR": 1.0,
+        "sTNR": 0.8888888888888888
+      }
+    },
+    {
+      "replicate": 7,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7915566300000023,
+      "lambda1": 0.3825326302870003,
+      "lambda2": 0.030013017903524508,
+      "number_edges": 5,
+      "number_parameters": 13,
+      "model": {
+        "p": 8,
+        "L.as": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": NaN,
+        "sTPR": 0.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 7,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7036051189999739,
+      "lambda1": 0.44012007532921027,
+      "lambda2": 0.20952738683837882,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 8,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7100255490000222,
+      "lambda1": 0.35457907853450743,
+      "lambda2": 0.1404480388702582,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 8,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6963058900000192,
+      "lambda1": 0.4163925703603185,
+      "lambda2": 0.05568001284401817,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 9,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.8565253759999791,
+      "lambda1": 0.32046542408060164,
+      "lambda2": 0.31223403549127515,
+      "number_edges": 6,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 9,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7921622590000084,
+      "lambda1": 0.33921299843305547,
+      "lambda2": 0.08297015690277998,
+      "number_edges": 5,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.0,
+        "sTPR": 0.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 10,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7833650349999743,
+      "lambda1": 0.3568096115032092,
+      "lambda2": 0.23003093719712883,
+      "number_edges": 5,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 10,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6813028070000087,
+      "lambda1": 0.41068579517329634,
+      "lambda2": 0.08720909999251318,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 11,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.715166006000004,
+      "lambda1": 0.4331941487325019,
+      "lambda2": 0.22611093603689003,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 11,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6941759940000338,
+      "lambda1": 0.4408841210325545,
+      "lambda2": 0.2248576990644115,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 12,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.9949468560000128,
+      "lambda1": 0.21313626281655673,
+      "lambda2": 0.30417832063993316,
+      "number_edges": 6,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 12,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8989920429999643,
+      "lambda1": 0.24460276223422672,
+      "lambda2": 0.1858655935002049,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 13,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7748941809999792,
+      "lambda1": 0.3241146469473363,
+      "lambda2": 0.03550180633448989,
+      "number_edges": 6,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 0.8888888888888888
+      }
+    },
+    {
+      "replicate": 13,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8655849250000074,
+      "lambda1": 0.16006972092718447,
+      "lambda2": 0.13477496778388107,
+      "number_edges": 9,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.5555555555555556,
+        "eTPR": 1.0,
+        "eTNR": 0.8260869565217391,
+        "sPPV": 0.25,
+        "sTPR": 1.0,
+        "sTNR": 0.7777777777777778
+      }
+    },
+    {
+      "replicate": 14,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7020503190000227,
+      "lambda1": 0.3710302379457243,
+      "lambda2": 0.15262914382071732,
+      "number_edges": 5,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 14,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6679308250000418,
+      "lambda1": 0.3867195413142997,
+      "lambda2": 0.09542856422293505,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 15,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.803947198000003,
+      "lambda1": 0.3846161928285353,
+      "lambda2": 0.22650264299922812,
+      "number_edges": 6,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.3333333333333333,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 15,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8077393419999908,
+      "lambda1": 0.34785002699035367,
+      "lambda2": 0.1548336955315526,
+      "number_edges": 6,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.3333333333333333,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 16,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7840814769999724,
+      "lambda1": 0.367929585789857,
+      "lambda2": 0.2650280697385564,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 16,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7631927920000408,
+      "lambda1": 0.32783476435007647,
+      "lambda2": 0.19487694483411355,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 17,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7380262469999934,
+      "lambda1": 0.3774889922545697,
+      "lambda2": 0.19765761222226447,
+      "number_edges": 4,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 17,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.6811164239999812,
+      "lambda1": 0.37847588589608205,
+      "lambda2": 0.19876646524585567,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 18,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.7716209349999872,
+      "lambda1": 0.32236213894785654,
+      "lambda2": 0.2613420563611477,
+      "number_edges": 4,
+      "number_parameters": 6,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 0.8,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 18,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7744513439999992,
+      "lambda1": 0.29567711815788894,
+      "lambda2": 0.05079898956720087,
+      "number_edges": 5,
+      "number_parameters": 7,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": []
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 19,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.8450680310000394,
+      "lambda1": 0.18208494098632233,
+      "lambda2": 0.2329281136294808,
+      "number_edges": 6,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [
+          2
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 19,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.8664851030000023,
+      "lambda1": 0.17052244915885323,
+      "lambda2": 0.16890101894780993,
+      "number_edges": 7,
+      "number_parameters": 9,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.7142857142857143,
+        "eTPR": 1.0,
+        "eTNR": 0.9130434782608695,
+        "sPPV": 0.5,
+        "sTPR": 1.0,
+        "sTNR": 1.0
+      }
+    },
+    {
+      "replicate": 20,
+      "method": "pdglasso-cov",
+      "runtime_seconds": 0.8384387599999741,
+      "lambda1": 0.34540039579870574,
+      "lambda2": 0.09045503461065686,
+      "number_edges": 6,
+      "number_parameters": 12,
+      "model": {
+        "p": 8,
+        "L.as": [
+          3,
+          4
+        ],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 0.8333333333333334,
+        "eTPR": 1.0,
+        "eTNR": 0.9565217391304348,
+        "sPPV": NaN,
+        "sTPR": 0.0,
+        "sTNR": 0.8888888888888888
+      }
+    },
+    {
+      "replicate": 20,
+      "method": "pdglasso-cor",
+      "runtime_seconds": 0.7762881620000144,
+      "lambda1": 0.4051331391300822,
+      "lambda2": 0.06847554668608859,
+      "number_edges": 5,
+      "number_parameters": 8,
+      "model": {
+        "p": 8,
+        "L.as": [],
+        "E": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "E.as": [
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      "metrics": {
+        "ePPV": 1.0,
+        "eTPR": 1.0,
+        "eTNR": 1.0,
+        "sPPV": 0.0,
+        "sTPR": 0.0,
+        "sTNR": 1.0
+      }
+    }
+  ],
+  "summary": [
+    {
+      "scenario": "A",
+      "p": 8,
+      "method": "pdglasso-cov",
+      "replicates": 20,
+      "mean_runtime": 0.7970337286500012,
+      "sd_runtime": 0.08462581319769362,
+      "mean_number_edges": 5.5,
+      "ePPV": 0.8968253968253966,
+      "eTPR": 0.96,
+      "eTNR": 0.9695652173913043,
+      "sPPV": NaN,
+      "sTPR": 0.9,
+      "sTNR": 0.9722222222222223
+    },
+    {
+      "scenario": "A",
+      "p": 8,
+      "method": "pdglasso-cor",
+      "replicates": 20,
+      "mean_runtime": 0.7659697008500046,
+      "sd_runtime": 0.07817049991697705,
+      "mean_number_edges": 5.3,
+      "ePPV": 0.9325396825396826,
+      "eTPR": 0.96,
+      "eTNR": 0.9782608695652174,
+      "sPPV": 0.4208333333333333,
+      "sTPR": 0.9,
+      "sTNR": 0.9833333333333332
+    }
+  ]
+}
