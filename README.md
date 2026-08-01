@@ -1,4 +1,4 @@
-# Khai thác Dữ liệu lớn (MTH055) — Đồ án môn học
+# Khai thác Dữ liệu lớn (MTH055) - Đồ án môn học
 
 Tái thực nghiệm bài báo **Roverato, A. & Nguyen, D. N. (2024), "Exploration of
 the Search Space of Gaussian Graphical Models for Paired Data", Journal of
@@ -7,8 +7,8 @@ Machine Learning Research 25(92), 1–41.**
 Bài báo nghiên cứu bài toán chọn mô hình đồ thị Gauss cho **dữ liệu ghép cặp**
 (paired data): tập biến được chia thành hai nhóm tương ứng nhau (hai bán cầu
 não, hai thời điểm đo, hai cá thể song sinh…), và mô hình cần thể hiện được
-các ràng buộc đối xứng giữa hai nhóm. Đóng góp chính là **twin lattice** —
-một dàn nhỏ hơn dàn bao hàm mô hình thông thường — cùng thuật toán loại bỏ lùi
+các ràng buộc đối xứng giữa hai nhóm. Đóng góp chính là **twin lattice** -
+một dàn nhỏ hơn dàn bao hàm mô hình thông thường - cùng thuật toán loại bỏ lùi
 từng bước **nhất quán** (coherent stepwise backward elimination) duyệt trên dàn
 đó.
 
@@ -25,7 +25,7 @@ Mã R gốc của nhóm tác giả nằm ở
 src/backward_cgm_pd/     thư viện lõi (bản port từ R)
   graph.py                 biểu diễn đồ thị tô màu pdCG, phép toán tau
   rcon.py                  khớp mô hình RCON (backend MLE và gRc::rcox IPMS)
-  search_tau.py            Thuật toán 1 — loại bỏ lùi trên twin lattice
+  search_tau.py            Thuật toán 1 - loại bỏ lùi trên twin lattice
   search_submodel.py       loại bỏ lùi trên dàn bao hàm mô hình
   pdglasso.py              pdRCON graphical lasso (dùng làm baseline)
   metrics.py               các độ đo phục hồi ePPV/eTPR/eTNR, sPPV/sTPR/sTNR
@@ -55,7 +55,7 @@ báo cáo. Toàn bộ phần còn lại là bản chuyển đổi trung thực t
 giữ nguyên quy ước đánh chỉ số từ 1 để kết quả so sánh trực tiếp được với các
 tệp `.RData` mà nhóm tác giả công bố.
 
-## Chạy trên Kaggle
+## Chạy trên Kaggle (RECOMMEND)
 
 Toàn bộ số liệu trong báo cáo được sinh ra từ chín notebook trong thư mục
 `notebooks/`, chạy trên Kaggle. Mỗi notebook là một job độc lập cho một cấu
@@ -64,7 +64,7 @@ hình, kèm log đầy đủ của lần chạy cuối.
 Cả chín notebook đều được công khai trên Kaggle, có thể xem trực tiếp kết quả
 của lần chạy cuối mà không cần chạy lại.
 
-### Thực nghiệm 1 — Dữ liệu mô phỏng
+### I. Dữ liệu mô phỏng
 
 Bốn cấu hình dùng backend `grc_ipms`, tái tạo đúng cách khớp mô hình RCON của mã
 R gốc (`gRc::rcox`, phương pháp IPMS):
@@ -90,27 +90,27 @@ Vì hai nhóm dùng hai cách khớp mô hình khác nhau, **thời gian chạy 
 không so sánh trực tiếp được**. Báo cáo nêu rõ điều này khi phân tích xu hướng
 runtime theo `p`.
 
-### Thực nghiệm 2 — Dữ liệu fMRI
+### II. Dữ liệu fMRI
 
-[kaggle-fmri](https://www.kaggle.com/code/trungquanghuynh/kaggle-fmri) — dựng
+[kaggle-fmri](https://www.kaggle.com/code/trungquanghuynh/kaggle-fmri) - dựng
 lại hình minh hoạ mạng não của Subject 14 và Subject 15 từ các mô hình đã lưu
 trong kho mã nguồn gốc. Nhóm không có dữ liệu chuỗi thời gian thô nên không khớp
 lại mô hình từ đầu; giới hạn này được nêu rõ trong báo cáo.
 
-### Thực nghiệm 3 — Dữ liệu chất lượng không khí
+### III. Dữ liệu chất lượng không khí
 
 [kaggle-air-quality](https://www.kaggle.com/code/trungquanghuynh/kaggle-air-quality)
-— chạy greedy search và hai baseline pdglasso (trên covariance và trên
+- chạy greedy search và hai baseline pdglasso (trên covariance và trên
 correlation) với `p = 12`, `n = 373`.
 
 ### Cấu trúc mỗi thư mục notebook
 
-- `<tên>.ipynb` — notebook chạy được trên Kaggle, chứa toàn bộ pipeline của một
+- `<tên>.ipynb` - notebook chạy được trên Kaggle, chứa toàn bộ pipeline của một
   cấu hình.
-- `<tên>.log` — log console đầy đủ của lần chạy cuối.
-- `kernel-metadata.json` — cấu hình Kaggle của notebook (dataset đầu vào, GPU,
+- `<tên>.log` - log console đầy đủ của lần chạy cuối.
+- `kernel-metadata.json` - cấu hình Kaggle của notebook (dataset đầu vào, GPU,
   Docker image).
-- `<tên>-results/` — kết quả của lần chạy đó: tệp JSON trạng thái, CSV tóm tắt
+- `<tên>-results/` - kết quả của lần chạy đó: tệp JSON trạng thái, CSV tóm tắt
   và các hình đã vẽ.
 
 ### Các bước chạy lại
@@ -139,7 +139,7 @@ rồi start session. Thuật toán chạy trên CPU nên GPU không giúp tăng 
 nặng nhất là khớp mô hình RCON bằng đại số tuyến tính trên các ma trận nhỏ.
 
 **B4. Chạy lần lượt các cell từ trên xuống.** Cell cấu hình ở giữa notebook cho
-biết kịch bản, giá trị `p`, số replicate và backend đang dùng — sửa ở đó nếu
+biết kịch bản, giá trị `p`, số replicate và backend đang dùng - sửa ở đó nếu
 muốn chạy nhẹ hơn.
 
 **B5. Lấy kết quả.** Sau khi chạy xong, kết quả nằm trong `/kaggle/working/` và
@@ -179,7 +179,7 @@ pip install -r requirements.txt
 Mọi lệnh dưới đây chạy được ngay sau bước cài đặt, không cần sửa mã nguồn.
 Kết quả ghi vào thư mục `results/`.
 
-### Tái thực nghiệm mô phỏng của bài báo
+### I. Tái thực nghiệm mô phỏng của bài báo
 
 ```bash
 python experiments/simulation.py \
@@ -201,7 +201,7 @@ cáo vì nó ảnh hưởng tới thời gian chạy.
 Tiến trình được ghi lại sau mỗi replicate; thêm `--resume` để chạy tiếp một
 lần chạy bị gián đoạn.
 
-### Dữ liệu chất lượng không khí và fMRI
+### II. Dữ liệu chất lượng không khí và fMRI
 
 ```bash
 python experiments/air_quality.py --output results/air-quality.json
@@ -212,7 +212,7 @@ Hai lệnh này cần các tệp `.RData` trong kho mã nguồn của nhóm tác
 `applications/`). Nhóm không có dữ liệu thô của hai ứng dụng nên chỉ tái dựng
 được một phần; giới hạn cụ thể trình bày ở Chương 4 của báo cáo.
 
-### Baseline pdglasso trên dữ liệu mô phỏng (mở rộng)
+### III. Baseline pdglasso trên dữ liệu mô phỏng (mở rộng)
 
 ```bash
 python experiments/baseline_simulation.py \
@@ -222,11 +222,11 @@ python experiments/baseline_simulation.py \
 
 Chạy pdRCON graphical lasso trên ma trận hiệp phương sai mẫu và trên ma trận
 tương quan mẫu, chấm điểm bằng đúng bộ độ đo dùng cho các thủ tục từng bước.
-Bài báo chỉ so sánh `tau` với `submodel` — cả hai đều thuộc phương pháp đề
-xuất — nên thực nghiệm mô phỏng gốc không có đối thủ ngoài; phần này bổ sung
+Bài báo chỉ so sánh `tau` với `submodel` - cả hai đều thuộc phương pháp đề
+xuất - nên thực nghiệm mô phỏng gốc không có đối thủ ngoài; phần này bổ sung
 điều đó.
 
-### Độ ổn định bằng bootstrap (mở rộng)
+### IV. Độ ổn định bằng bootstrap (mở rộng)
 
 ```bash
 python experiments/stability.py \
@@ -239,7 +239,7 @@ Lấy mẫu lại **theo hàng** (giữ nguyên cấu trúc cặp của các c�
 thuật toán trên từng mẫu bootstrap, thu tần suất được chọn của từng cạnh và
 từng phát biểu đối xứng. Bài báo báo cáo độ phục hồi trung bình trên 20
 replicate độc lập, tức là mức chính xác kỳ vọng trên một mẫu mới; đại lượng ở
-đây trả lời một câu hỏi khác — một mô hình cụ thể nhạy đến mức nào với chính
+đây trả lời một câu hỏi khác - một mô hình cụ thể nhạy đến mức nào với chính
 mẫu đã sinh ra nó.
 
 Kết quả gồm `instability` (chỉ số bất ổn định trung bình trên mọi cặp đỉnh,
