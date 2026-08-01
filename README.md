@@ -41,7 +41,7 @@ experiments/
   stability.py             [mở rộng] đánh giá độ ổn định bằng bootstrap
 
 data/simulated-data/     tám tệp .RData dữ liệu mô phỏng của nhóm tác giả
-notebooks/               chín notebook Kaggle đã chạy, kèm log
+notebooks/               mười một notebook Kaggle đã chạy, kèm log
 ```
 
 Kho không chứa sẵn kết quả thực nghiệm: mọi con số trong báo cáo đều sinh lại
@@ -57,11 +57,11 @@ tệp `.RData` mà nhóm tác giả công bố.
 
 ## Chạy trên Kaggle (RECOMMEND)
 
-Toàn bộ số liệu trong báo cáo được sinh ra từ chín notebook trong thư mục
+Toàn bộ số liệu trong báo cáo được sinh ra từ các notebook trong thư mục
 `notebooks/`, chạy trên Kaggle. Mỗi notebook là một job độc lập cho một cấu
 hình, kèm log đầy đủ của lần chạy cuối.
 
-Cả chín notebook đều được công khai trên Kaggle, có thể xem trực tiếp kết quả
+Tất cả notebook đều được công khai trên Kaggle, có thể xem trực tiếp kết quả
 của lần chạy cuối mà không cần chạy lại.
 
 ### I. Dữ liệu mô phỏng
@@ -103,6 +103,22 @@ lại mô hình từ đầu; giới hạn này được nêu rõ trong báo cáo
 - chạy greedy search và hai baseline pdglasso (trên covariance và trên
 correlation) với `p = 12`, `n = 373`.
 
+### IV. Hai thực nghiệm mở rộng
+
+Hai notebook dưới đây là phần **nhóm bổ sung**, không có trong bài báo gốc. Cả
+hai dùng chung dataset với chín notebook trên; mã của hai thực nghiệm được nhúng
+thẳng trong notebook nên chạy được ngay mà không cần thêm gì.
+
+| Thực nghiệm | Notebook |
+| --- | --- |
+| Baseline pdglasso trên dữ liệu mô phỏng | [kaggle-baseline-simulation](https://www.kaggle.com/code/nhantrnh/kaggle-baseline-simulation) |
+| Độ ổn định bằng bootstrap | [kaggle-stability](https://www.kaggle.com/code/nhantrnh/kaggle-stability) |
+
+Notebook thứ nhất vá một khoảng trống trong thiết kế của bài báo: phần mô phỏng
+gốc chỉ so `tau` với `submodel`, cả hai đều thuộc phương pháp đề xuất. Notebook
+thứ hai đo độ nhạy của mô hình được chọn với chính mẫu đã sinh ra nó — khía cạnh
+bài báo không khảo sát.
+
 ### Cấu trúc mỗi thư mục notebook
 
 - `<tên>.ipynb` - notebook chạy được trên Kaggle, chứa toàn bộ pipeline của một
@@ -131,7 +147,7 @@ Nếu chạy ở local thì bỏ qua toàn bộ mục này và dùng các lệnh
 <https://www.kaggle.com/datasets/trungquanghuynh/backwardcgm-pd>
 
 Dataset này chứa bản chuyển đổi Python cùng các tệp `.RData` của nhóm tác giả.
-Cả chín notebook đều dùng chung đúng dataset này. Nếu mở bằng **Copy & Edit**
+Mọi notebook đều dùng chung đúng dataset này. Nếu mở bằng **Copy & Edit**
 thì dataset đã được gắn sẵn, không cần thêm.
 
 **B3. Cấu hình session.** Đặt Accelerator ở mức **None** và bật **Internet**,
@@ -252,7 +268,7 @@ lớp màu).
 - Mọi thực nghiệm đều đặt hạt giống ngẫu nhiên cố định (`--seed`, mặc định
   2024). Thuật toán loại bỏ lùi bản thân nó tất định; ngẫu nhiên chỉ xuất hiện
   ở bước sinh dữ liệu và bước lấy mẫu bootstrap.
-- Số liệu trong báo cáo được sinh từ chín notebook Kaggle lưu trong
+- Số liệu trong báo cáo được sinh từ các notebook Kaggle lưu trong
   `notebooks/`, mỗi notebook kèm log đầy đủ của lần chạy cuối.
 - Với `p = 16, 20`, cách khớp mô hình RCON khác với `p = 8, 12`. Thời gian
   chạy giữa hai nhóm cấu hình vì thế không so sánh trực tiếp được.
