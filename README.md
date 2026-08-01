@@ -61,6 +61,48 @@ Toàn bộ số liệu trong báo cáo được sinh ra từ chín notebook tron
 `notebooks/`, chạy trên Kaggle. Mỗi notebook là một job độc lập cho một cấu
 hình, kèm log đầy đủ của lần chạy cuối.
 
+Cả chín notebook đều được công khai trên Kaggle, có thể xem trực tiếp kết quả
+của lần chạy cuối mà không cần chạy lại.
+
+### Thực nghiệm 1 — Dữ liệu mô phỏng
+
+Bốn cấu hình dùng backend `grc_ipms`, tái tạo đúng cách khớp mô hình RCON của mã
+R gốc (`gRc::rcox`, phương pháp IPMS):
+
+| Kịch bản | `p` | Notebook |
+| --- | --- | --- |
+| A | 8  | [kaggle-simulation-a-p8](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-a-p8) |
+| A | 12 | [kaggle-simulation-a-p12](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-a-p12) |
+| B | 8  | [kaggle-simulation-b-p8](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-b-p8) |
+| B | 12 | [kaggle-simulation-b-p12](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-b-p12) |
+
+Bốn cấu hình còn lại dùng backend `mle`, tức **cách ước lượng khác với bài báo**,
+đổi lại chạy nhanh hơn nhiều ở số biến lớn:
+
+| Kịch bản | `p` | Notebook |
+| --- | --- | --- |
+| A | 16 | [kaggle-simulation-a-p16](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-a-p16) |
+| A | 20 | [kaggle-simulation-a-p20](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-a-p20) |
+| B | 16 | [kaggle-simulation-b-p16](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-b-p16) |
+| B | 20 | [kaggle-simulation-b-p20](https://www.kaggle.com/code/trungquanghuynh/kaggle-simulation-b-p20) |
+
+Vì hai nhóm dùng hai cách khớp mô hình khác nhau, **thời gian chạy giữa chúng
+không so sánh trực tiếp được**. Báo cáo nêu rõ điều này khi phân tích xu hướng
+runtime theo `p`.
+
+### Thực nghiệm 2 — Dữ liệu fMRI
+
+[kaggle-fmri](https://www.kaggle.com/code/trungquanghuynh/kaggle-fmri) — dựng
+lại hình minh hoạ mạng não của Subject 14 và Subject 15 từ các mô hình đã lưu
+trong kho mã nguồn gốc. Nhóm không có dữ liệu chuỗi thời gian thô nên không khớp
+lại mô hình từ đầu; giới hạn này được nêu rõ trong báo cáo.
+
+### Thực nghiệm 3 — Dữ liệu chất lượng không khí
+
+[kaggle-air-quality](https://www.kaggle.com/code/trungquanghuynh/kaggle-air-quality)
+— chạy greedy search và hai baseline pdglasso (trên covariance và trên
+correlation) với `p = 12`, `n = 373`.
+
 ### Cấu trúc mỗi thư mục notebook
 
 - `<tên>.ipynb` — notebook chạy được trên Kaggle, chứa toàn bộ pipeline của một
@@ -71,32 +113,40 @@ hình, kèm log đầy đủ của lần chạy cuối.
 - `<tên>-results/` — kết quả của lần chạy đó: tệp JSON trạng thái, CSV tóm tắt
   và các hình đã vẽ.
 
-### Các bước chạy
+### Các bước chạy lại
 
-**B1.** Import notebook cần chạy vào Kaggle, ví dụ
-`notebooks/kaggle-simulation-a-p8/kaggle-simulation-a-p8.ipynb`. Nếu chạy ở
-local thì bỏ qua bước này và dùng các lệnh ở mục
+**B1. Mở notebook.** Có hai cách:
+
+- Mở đường dẫn Kaggle ở các bảng trên rồi bấm **Copy & Edit** để tạo bản sao
+  trong tài khoản của mình. Cách này giữ nguyên mọi cấu hình, không cần thiết
+  lập lại gì.
+- Hoặc import tệp `.ipynb` tương ứng trong `notebooks/` vào Kaggle, ví dụ
+  `notebooks/kaggle-simulation-a-p8/kaggle-simulation-a-p8.ipynb`.
+
+Nếu chạy ở local thì bỏ qua toàn bộ mục này và dùng các lệnh ở
 [Chạy thực nghiệm](#chạy-thực-nghiệm) bên dưới.
 
-**B2.** Thêm một input dataset duy nhất:
+**B2. Thêm input dataset.** Vào **Add Input** và thêm đúng một dataset:
+
 <https://www.kaggle.com/datasets/trungquanghuynh/backwardcgm-pd>
 
 Dataset này chứa bản chuyển đổi Python cùng các tệp `.RData` của nhóm tác giả.
-Cả chín notebook đều dùng chung đúng dataset này.
+Cả chín notebook đều dùng chung đúng dataset này. Nếu mở bằng **Copy & Edit**
+thì dataset đã được gắn sẵn, không cần thêm.
 
-**B3.** Giữ Accelerator ở mức **None** và bật **Internet**, rồi start session.
-Thuật toán chạy trên CPU nên GPU không giúp tăng tốc; bước nặng nhất là khớp mô
-hình RCON bằng đại số tuyến tính trên ma trận nhỏ.
+**B3. Cấu hình session.** Đặt Accelerator ở mức **None** và bật **Internet**,
+rồi start session. Thuật toán chạy trên CPU nên GPU không giúp tăng tốc; bước
+nặng nhất là khớp mô hình RCON bằng đại số tuyến tính trên các ma trận nhỏ.
 
-**B4.** Chạy lần lượt các cell từ trên xuống.
+**B4. Chạy lần lượt các cell từ trên xuống.** Cell cấu hình ở giữa notebook cho
+biết kịch bản, giá trị `p`, số replicate và backend đang dùng — sửa ở đó nếu
+muốn chạy nhẹ hơn.
+
+**B5. Lấy kết quả.** Sau khi chạy xong, kết quả nằm trong `/kaggle/working/` và
+được đóng gói thành một tệp `.zip` để tải về, gồm tệp JSON trạng thái, CSV tóm
+tắt và các hình đã vẽ.
 
 ### Lưu ý
-
-- **Chọn notebook theo cấu hình.** Tám notebook `kaggle-simulation-*` ứng với
-  hai kịch bản A/B và bốn giá trị `p`. Với `p = 8, 12`, notebook dùng backend
-  `grc_ipms` để tái tạo đúng cách khớp mô hình của mã R; với `p = 16, 20`,
-  notebook dùng backend `mle` nhanh hơn. Vì vậy **không so sánh trực tiếp thời
-  gian chạy giữa hai nhóm cấu hình này** — điểm được nêu rõ trong báo cáo.
 
 - **Checkpoint và resume.** Mỗi notebook ghi trạng thái sau từng replicate và
   chỉ resume đúng checkpoint có cùng `rcon_backend`. Nếu session Kaggle hết giờ
