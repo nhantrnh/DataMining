@@ -1,0 +1,71 @@
+[{"stream_name":"stderr","time":7.170559424,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.170678624,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.170684044,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.170687304,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.801226793,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.801259823,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.801263003,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.801265283,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.882735826,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 1.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.085267174,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.7/287.7 kB 1.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.84457112,"data":"Dependencies: OK\n"}
+,{"stream_name":"stdout","time":15.160216814,"data":"Dataset: OK\n"}
+,{"stream_name":"stdout","time":15.160252064,"data":"Output: /kaggle/working/stability-results\n"}
+,{"stream_name":"stdout","time":15.176254406,"data":"Đã ghi /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py\n"}
+,{"stream_name":"stdout","time":15.193263829,"data":"{'bootstrap': 200, 'replicate': 1, 'p': ['8', '12', '16']}\n"}
+,{"stream_name":"stdout","time":15.2061428,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario A --p 8 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-A-p8-tau.json\n"}
+,{"stream_name":"stdout","time":158.784236987,"data":"Wrote /kaggle/working/stability-results/stability-A-p8-tau.json\n"}
+,{"stream_name":"stdout","time":158.784383437,"data":"Wrote /kaggle/working/stability-results/stability-A-p8-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":158.784392067,"data":"instability=0.2010  exact_recovery_rate=0.020  distinct_models=191  failed=0\n"}
+,{"stream_name":"stdout","time":158.995679858,"data":"Wrote /kaggle/working/stability-results/stability-A-p8-tau.json\n"}
+,{"stream_name":"stdout","time":158.995770588,"data":"Wrote /kaggle/working/stability-results/stability-A-p8-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":158.995814308,"data":"instability=0.2010  exact_recovery_rate=0.020  distinct_models=191  failed=0\n"}
+,{"stream_name":"stdout","time":159.279189496,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario A --p 12 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-A-p12-tau.json\n"}
+,{"stream_name":"stdout","time":1498.008060912,"data":"Wrote /kaggle/working/stability-results/stability-A-p12-tau.json\n"}
+,{"stream_name":"stdout","time":1498.008123092,"data":"Wrote /kaggle/working/stability-results/stability-A-p12-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":1498.008129622,"data":"instability=0.3019  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":1498.213614942,"data":"Wrote /kaggle/working/stability-results/stability-A-p12-tau.json\n"}
+,{"stream_name":"stdout","time":1498.213653942,"data":"Wrote /kaggle/working/stability-results/stability-A-p12-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":1498.213658802,"data":"instability=0.3019  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":1498.478936821,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario A --p 16 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-A-p16-tau.json\n"}
+,{"stream_name":"stdout","time":10310.730105187,"data":"Wrote /kaggle/working/stability-results/stability-A-p16-tau.json\n"}
+,{"stream_name":"stdout","time":10310.730142117,"data":"Wrote /kaggle/working/stability-results/stability-A-p16-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":10310.730147697,"data":"instability=0.3339  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":10310.934671111,"data":"Wrote /kaggle/working/stability-results/stability-A-p16-tau.json\n"}
+,{"stream_name":"stdout","time":10310.934700651,"data":"Wrote /kaggle/working/stability-results/stability-A-p16-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":10310.934706251,"data":"instability=0.3339  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":10311.135922196,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario B --p 8 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-B-p8-tau.json\n"}
+,{"stream_name":"stdout","time":10448.835247898,"data":"Wrote /kaggle/working/stability-results/stability-B-p8-tau.json\n"}
+,{"stream_name":"stdout","time":10448.835284498,"data":"Wrote /kaggle/working/stability-results/stability-B-p8-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":10448.835290438,"data":"instability=0.2641  exact_recovery_rate=0.020  distinct_models=192  failed=0\n"}
+,{"stream_name":"stdout","time":10449.040843843,"data":"Wrote /kaggle/working/stability-results/stability-B-p8-tau.json\n"}
+,{"stream_name":"stdout","time":10449.040873563,"data":"Wrote /kaggle/working/stability-results/stability-B-p8-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":10449.040879652,"data":"instability=0.2641  exact_recovery_rate=0.020  distinct_models=192  failed=0\n"}
+,{"stream_name":"stdout","time":10449.253151097,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario B --p 12 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-B-p12-tau.json\n"}
+,{"stream_name":"stdout","time":11788.948230972,"data":"Wrote /kaggle/working/stability-results/stability-B-p12-tau.json\n"}
+,{"stream_name":"stdout","time":11788.948284922,"data":"Wrote /kaggle/working/stability-results/stability-B-p12-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":11788.948292032,"data":"instability=0.3474  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":11789.154094343,"data":"Wrote /kaggle/working/stability-results/stability-B-p12-tau.json\n"}
+,{"stream_name":"stdout","time":11789.154140063,"data":"Wrote /kaggle/working/stability-results/stability-B-p12-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":11789.154146823,"data":"instability=0.3474  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":11789.392272502,"data":"Running: /usr/bin/python3 -u /kaggle/working/backwardCGM-PD/python-port/experiments/stability.py --scenario B --p 16 --replicate 1 --method tau --bootstrap 200 --parallel 4 --rcon-backend mle --output /kaggle/working/stability-results/stability-B-p16-tau.json\n"}
+,{"stream_name":"stdout","time":20648.883941497,"data":"Wrote /kaggle/working/stability-results/stability-B-p16-tau.json\n"}
+,{"stream_name":"stdout","time":20648.883982097,"data":"Wrote /kaggle/working/stability-results/stability-B-p16-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":20648.883989087,"data":"instability=0.3619  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":20649.088843003,"data":"Wrote /kaggle/working/stability-results/stability-B-p16-tau.json\n"}
+,{"stream_name":"stdout","time":20649.088871752,"data":"Wrote /kaggle/working/stability-results/stability-B-p16-tau-selection.csv\n"}
+,{"stream_name":"stdout","time":20649.088877952,"data":"instability=0.3619  exact_recovery_rate=0.000  distinct_models=200  failed=0\n"}
+,{"stream_name":"stdout","time":20649.236784119,"data":"\n"}
+,{"stream_name":"stdout","time":20649.236823509,"data":"Tổng thời gian: 20634.0s\n"}
+,{"stream_name":"stdout","time":20651.025294252,"data":"Download: /kaggle/working/stability-results.zip\n"}
+,{"stream_name":"stderr","time":20653.619039338,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":20653.619076258,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":20653.755219735,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":20653.755260535,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":20654.305086254,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20654.554388939,"data":"[NbConvertApp] Writing 166241 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":20656.804520962,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":20657.549149146,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":20657.549196396,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":20657.549421076,"data":"[NbConvertApp] Writing 354046 bytes to __results__.html\n"}
+]
