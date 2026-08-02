@@ -47,7 +47,7 @@ applications/
                                         chất lượng không khí
   fMRIdata/output-fMRI/36variables/     hai mô hình đã chọn sẵn của
                                         Subject 14 và Subject 15
-notebooks/                            mười hai notebook Kaggle đã chạy, kèm log
+notebooks/                            mười ba notebook Kaggle đã chạy, kèm log
 ```
 
 Toàn bộ dữ liệu cần thiết đều nằm sẵn trong kho, không phải tải thêm. Cần nói rõ
@@ -119,7 +119,7 @@ correlation) với `p = 12`, `n = 373`.
 ### IV. Ba thực nghiệm mở rộng
 
 Ba notebook dưới đây là phần **nhóm bổ sung**, không có trong bài báo gốc. Cả
-ba dùng chung dataset với chín notebook trên; mã của hai thực nghiệm được nhúng
+ba dùng chung dataset với mười notebook trên; mã của ba thực nghiệm được nhúng
 thẳng trong notebook nên chạy được ngay mà không cần thêm gì.
 
 | Thực nghiệm | Notebook |
